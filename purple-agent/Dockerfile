@@ -1,5 +1,7 @@
 FROM ghcr.io/astral-sh/uv:python3.13-bookworm
 
+ENV AGENT_ID=019c0dff-f457-7ff2-a20a-deba84b9cdfc
+
 RUN adduser agent
 USER agent
 WORKDIR /home/agent
