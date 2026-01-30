@@ -8,7 +8,6 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == true || github.ref != 'refs/heads/main'
     permissions:
       contents: write
       packages: read
