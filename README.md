@@ -1,4 +1,3 @@
-```
 # 🟩 Finance Green Agent — Official Agentbeats Leaderboard
 
 This repository hosts the **official leaderboard** for the Finance Green Agent.  
@@ -88,4 +87,3 @@ Each result JSON includes:
   "total": 271,
   "pass_rate": <percent_correct>
 }
-```
