@@ -11,5 +11,3 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 domain = "airline"
 num_tasks = 3
 # trigger
-# trigger
-
