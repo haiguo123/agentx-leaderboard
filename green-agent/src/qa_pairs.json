@@ -2,42 +2,42 @@
   "qa_pairs": [
     {
       "id": 1,
-      "question": "What is the average PriceEarningsRatio across all ETFs in Vanguard?",
+      "question": "What is the average PriceEarningsRatio across all ETFs in Vanguard? Return the answer as a decimal value.",
       "answer": 23.647540983606557
     },
     {
       "id": 2,
-      "question": "What is the average PriceEarningsRatio across all ETFs in iShares?",
+      "question": "What is the average PriceEarningsRatio across all ETFs in iShares? Return the answer as a decimal value.",
       "answer": 21.792839999999998
     },
     {
       "id": 3,
-      "question": "What is the average PriceEarningsRatio across all ETFs in Schwab?",
+      "question": "What is the average PriceEarningsRatio across all ETFs in Schwab? Return the answer as a decimal value.",
       "answer": 21.6705
     },
     {
       "id": 4,
-      "question": "What is the median PriceBookRatio across the ETF universe in Vanguard?",
+      "question": "What is the median PriceBookRatio across the ETF universe in Vanguard? Return the answer as a decimal value.",
       "answer": 2.8
     },
     {
       "id": 5,
-      "question": "What is the median PriceBookRatio across the ETF universe in iShares?",
+      "question": "What is the median PriceBookRatio across the ETF universe in iShares? Return the answer as a decimal value.",
       "answer": 2.29
     },
     {
       "id": 6,
-      "question": "What is the median PriceBookRatio across the ETF universe in Schwab?",
+      "question": "What is the median PriceBookRatio across the ETF universe in Schwab? Return the answer as a decimal value.",
       "answer": 2.5300000000000002
     },
     {
       "id": 7,
-      "question": "What is the standard deviation of ReturnOnEquity across ETFs in Vanguard?",
+      "question": "What is the standard deviation of ReturnOnEquity across ETFs in Vanguard? Return the answer as a decimal value.",
       "answer": 8.991452528887365
     },
     {
       "id": 8,
-      "question": "What is the standard deviation of ReturnOnEquity across ETFs in Schwab?",
+      "question": "What is the standard deviation of ReturnOnEquity across ETFs in Schwab? Return the answer as a decimal value.",
       "answer": 7.691423299261396
     },
     {
@@ -57,58 +57,58 @@
     },
     {
       "id": 12,
-      "question": "How many ETFs have ReturnOnEquity below the ETF universe median in Vanguard?",
-      "answer": 30
+      "question": "How many ETFs have ReturnOnEquity below 20% in Vanguard?",
+      "answer": 45
     },
     {
       "id": 13,
-      "question": "How many ETFs have ReturnOnEquity below the ETF universe median in Schwab?",
-      "answer": 10
+      "question": "How many ETFs have ReturnOnEquity below 20% in Schwab?",
+      "answer": 14
     },
     {
       "id": 14,
-      "question": "What proportion of ETFs fall into the top quartile of PriceBookRatio values in Vanguard?",
-      "answer": 0.26229508196721313
+      "question": "How many ETFs are available on Vanguard?",
+      "answer": 103
     },
     {
       "id": 15,
-      "question": "What proportion of ETFs fall into the top quartile of PriceBookRatio values in iShares?",
-      "answer": 0.25287356321839083
+      "question": "How many ETFs are available on iShares?",
+      "answer": 471
     },
     {
       "id": 16,
-      "question": "What proportion of ETFs fall into the top quartile of PriceBookRatio values in Schwab?",
-      "answer": 0.25
+      "question": "How many ETFs are available on Schwab?",
+      "answer": 33
     },
     {
       "id": 17,
-      "question": "How many ETFs fall into the bottom quartile of DividendYield values in iShares?",
-      "answer": 115
+      "question": "What is the bottom quartile of DividendYield values in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.0125
     },
     {
       "id": 18,
-      "question": "How many ETFs fall into the bottom quartile of DividendYield values in Schwab?",
-      "answer": 5
+      "question": "What is the bottom quartile of DividendYield values in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.05
     },
     {
       "id": 19,
-      "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in iShares?",
-      "answer": 4.3775373134328355
+      "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.043775373134328355
     },
     {
       "id": 20,
-      "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in Schwab?",
-      "answer": 4.405454545454545
+      "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.04405454545454545
     },
     {
       "id": 21,
-      "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in iShares?",
-      "answer": 2.7372556232919907
+      "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.027372556232919907
     },
     {
       "id": 22,
-      "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in Schwab?",
-      "answer": 2.037121212121212
+      "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.02037121212121212
     },
     {
       "id": 23,
@@ -147,13 +147,13 @@
     },
     {
       "id": 30,
-      "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Vanguard?",
-      "answer": 29.371428571428574
+      "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.29371428571428574
     },
     {
       "id": 31,
-      "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Schwab?",
-      "answer": 21.82
+      "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.2182
     },
     {
       "id": 32,
@@ -172,28 +172,28 @@
     },
     {
       "id": 35,
-      "question": "What is the ratio of ETFs with above-median DividendYield to those with below-median DividendYield in iShares?",
-      "answer": 0.9955947136563876
+      "question": "What proportion of iShares ETFs have a DividendYield above 3%? Return the answer as a decimal value.",
+      "answer": 0.9427
     },
     {
       "id": 36,
-      "question": "What is the ratio of ETFs with above-median DividendYield to those with below-median DividendYield in Schwab?",
-      "answer": 1.0
+      "question": "What proportion of Schwab ETFs have a DividendYield above 3%? Return the answer as a decimal value.",
+      "answer": 0.5455
     },
     {
       "id": 37,
-      "question": "What is the maximum absolute difference between PriceEarningsRatio and PriceBookRatio ranks across ETFs in Vanguard?",
-      "answer": 35
+      "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among Vanguard ETFs?",
+      "answer": 5
     },
     {
       "id": 38,
-      "question": "What is the maximum absolute difference between PriceEarningsRatio and PriceBookRatio ranks across ETFs in iShares?",
-      "answer": 166
+      "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among iShares ETFs?",
+      "answer": 11
     },
     {
       "id": 39,
-      "question": "What is the maximum absolute difference between PriceEarningsRatio and PriceBookRatio ranks across ETFs in Schwab?",
-      "answer": 10
+      "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among Schwab ETFs?",
+      "answer": 1
     },
     {
       "id": 40,
@@ -232,82 +232,82 @@
     },
     {
       "id": 47,
-      "question": "What percentage of ETFs simultaneously rank in the top half for ReturnOnEquity and DividendYield in Schwab?",
+      "question": "What percentage of ETFs simultaneously rank in the top half for ReturnOnEquity and DividendYield in Schwab? Return the answer as a decimal value.",
       "answer": 0.0
     },
     {
       "id": 48,
-      "question": "How many ETFs have a non-null PriceEarningsRatio value in Vanguard?",
+      "question": "How many Vanguard ETFs report a PriceEarningsRatio value?",
       "answer": 61
     },
     {
       "id": 49,
-      "question": "How many ETFs have a non-null PriceEarningsRatio value in iShares?",
+      "question": "How many iShares ETFs report a PriceEarningsRatio value?",
       "answer": 250
     },
     {
       "id": 50,
-      "question": "How many ETFs have a non-null PriceEarningsRatio value in Schwab?",
+      "question": "How many Schwab ETFs report a PriceEarningsRatio value?",
       "answer": 20
     },
     {
       "id": 51,
-      "question": "How many ETFs have a non-null PriceBookRatio value in Vanguard?",
+      "question": "How many Vanguard ETFs report a PriceBookRatio value?",
       "answer": 61
     },
     {
       "id": 52,
-      "question": "How many ETFs have a non-null PriceBookRatio value in iShares?",
+      "question": "How many iShares ETFs report a PriceBookRatio value?",
       "answer": 261
     },
     {
       "id": 53,
-      "question": "How many ETFs have a non-null PriceBookRatio value in Schwab?",
+      "question": "How many Schwab ETFs report a PriceBookRatio value?",
       "answer": 20
     },
     {
       "id": 54,
-      "question": "How many ETFs have a non-null ReturnOnEquity value in Vanguard?",
+      "question": "How many Vanguard ETFs report a ReturnOnEquity value?",
       "answer": 61
     },
     {
       "id": 55,
-      "question": "How many ETFs have a non-null ReturnOnEquity value in Schwab?",
+      "question": "How many Schwab ETFs report a ReturnOnEquity value?",
       "answer": 20
     },
     {
       "id": 56,
-      "question": "How many ETFs have both a non-null PriceEarningsRatio value and a non-null PriceBookRatio value in Vanguard?",
+      "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in Vanguard?",
       "answer": 61
     },
     {
       "id": 57,
-      "question": "How many ETFs have both a non-null PriceEarningsRatio value and a non-null PriceBookRatio value in iShares?",
+      "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in iShares?",
       "answer": 250
     },
     {
       "id": 58,
-      "question": "How many ETFs have both a non-null PriceEarningsRatio value and a non-null PriceBookRatio value in Schwab?",
+      "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in Schwab?",
       "answer": 20
     },
     {
       "id": 59,
-      "question": "How many ETFs have both a non-null PriceEarningsRatio value and a non-null ReturnOnEquity value in Vanguard?",
+      "question": "How many ETFs report both PriceEarningsRatio value and ReturnOnEquity value in Vanguard?",
       "answer": 61
     },
     {
       "id": 60,
-      "question": "How many ETFs have both a non-null PriceEarningsRatio value and a non-null ReturnOnEquity value in Schwab?",
+      "question": "How many ETFs report both PriceEarningsRatio value and ReturnOnEquity value in Schwab?",
       "answer": 20
     },
     {
       "id": 61,
-      "question": "How many ETFs have a non-null DividendYield value in iShares?",
+      "question": "How many ETFs report DividendYield value in iShares?",
       "answer": 455
     },
     {
       "id": 62,
-      "question": "How many ETFs have a non-null DividendYield value in Schwab?",
+      "question": "How many ETFs report DividendYield value in Schwab?",
       "answer": 18
     },
     {
@@ -322,17 +322,17 @@
     },
     {
       "id": 65,
-      "question": "How many ETFs have a non-null DistributionFrequency value in Vanguard?",
+      "question": "How many ETFs report DistributionFrequency value in Vanguard?",
       "answer": 98
     },
     {
       "id": 66,
-      "question": "How many ETFs have a non-null DistributionFrequency value in iShares?",
+      "question": "How many ETFs report DistributionFrequency value in iShares?",
       "answer": 459
     },
     {
       "id": 67,
-      "question": "How many ETFs have a non-null DistributionFrequency value in Schwab?",
+      "question": "How many ETFs report DistributionFrequency value in Schwab?",
       "answer": 31
     },
     {
@@ -352,12 +352,12 @@
     },
     {
       "id": 71,
-      "question": "How many ETFs have both a non-null DividendYield value and a non-null DistributionFrequency value in iShares?",
+      "question": "How many ETFs report both a DividendYield value and a DistributionFrequency value in iShares?",
       "answer": 455
     },
     {
       "id": 72,
-      "question": "How many ETFs have both a non-null DividendYield value and a non-null DistributionFrequency value in Schwab?",
+      "question": "How many ETFs report both a DividendYield value and a DistributionFrequency value in Schwab?",
       "answer": 18
     },
     {
@@ -377,18 +377,18 @@
     },
     {
       "id": 76,
-      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 0 in Vanguard?",
-      "answer": 0
+      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in Vanguard?",
+      "answer": 22
     },
     {
       "id": 77,
-      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 0 in iShares?",
-      "answer": 0
+      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in iShares?",
+      "answer": 135
     },
     {
       "id": 78,
-      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 0 in Schwab?",
-      "answer": 0
+      "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in Schwab?",
+      "answer": 9
     },
     {
       "id": 79,
@@ -417,118 +417,118 @@
     },
     {
       "id": 84,
-      "question": "How many ETFs have ReturnOnEquity value less than 0 in Vanguard?",
+      "question": "How many ETFs report a ReturnOnEquity value less than 0 in Vanguard?",
       "answer": 0
     },
     {
       "id": 85,
-      "question": "How many ETFs have ReturnOnEquity value less than 0 in Schwab?",
+      "question": "How many ETFs report a ReturnOnEquity value less than 0 in Schwab?",
       "answer": 1
     },
     {
       "id": 86,
-      "question": "What is the average OneYearNAVReturn across all ETFs in Vanguard?",
-      "answer": 9.966279069767442
+      "question": "What is the average OneYearNAVReturn across all ETFs in Vanguard? Return the answer as a decimal.",
+      "answer": 0.09966279069767442
     },
     {
       "id": 87,
-      "question": "What is the average OneYearNAVReturn across all ETFs in iShares?",
-      "answer": 12.279033018867924
+      "question": "What is the average OneYearNAVReturn across all ETFs in iShares? Return the answer as a decimal.",
+      "answer": 0.12279033018867924
     },
     {
       "id": 88,
-      "question": "What is the average OneYearNAVReturn across all ETFs in Schwab?",
-      "answer": 12.897333333333334
+      "question": "What is the average OneYearNAVReturn across all ETFs in Schwab? Return the answer as a decimal.",
+      "answer": 0.12897333333333334
     },
     {
       "id": 89,
-      "question": "What is the median ThreeYearNAVReturn across ETFs in Vanguard?",
-      "answer": 16.12
+      "question": "What is the median ThreeYearNAVReturn across ETFs in Vanguard? Return the answer as a decimal.",
+      "answer": 0.1612
     },
     {
       "id": 90,
-      "question": "What is the median ThreeYearNAVReturn across ETFs in iShares?",
-      "answer": 15.25
+      "question": "What is the median ThreeYearNAVReturn across ETFs in iShares? Return the answer as a decimal.",
+      "answer": 0.1525
     },
     {
       "id": 91,
-      "question": "What is the median ThreeYearNAVReturn across ETFs in Schwab?",
-      "answer": 16.55
+      "question": "What is the median ThreeYearNAVReturn across ETFs in Schwab? Return the answer as a decimal.",
+      "answer": 0.1655
     },
     {
       "id": 92,
-      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Vanguard?",
-      "answer": 7.335612232092169
+      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Vanguard? Return the answer as a decimal (not percentage points).",
+      "answer": 0.07335612232092169
     },
     {
       "id": 93,
-      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in iShares?",
-      "answer": 6.959043053079071
+      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in iShares? Return the answer as a decimal (not percentage points).",
+      "answer": 0.06959043053079071
     },
     {
       "id": 94,
-      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Schwab?",
-      "answer": 7.226662175282042
+      "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Schwab? Return the answer as a decimal (not percentage points).",
+      "answer": 0.07226662175282042
     },
     {
       "id": 95,
-      "question": "How many ETFs have OneYearNAVReturn above the ETF universe average in Vanguard?",
+      "question": "How many ETFs have OneYearNAVReturn above the average in Vanguard?",
       "answer": 37
     },
     {
       "id": 96,
-      "question": "How many ETFs have OneYearNAVReturn above the ETF universe average in iShares?",
+      "question": "How many ETFs have OneYearNAVReturn above the average in iShares?",
       "answer": 173
     },
     {
       "id": 97,
-      "question": "How many ETFs have OneYearNAVReturn above the ETF universe average in Schwab?",
+      "question": "How many ETFs have OneYearNAVReturn above the average in Schwab?",
       "answer": 9
     },
     {
       "id": 98,
-      "question": "How many ETFs have ThreeYearNAVReturn below the ETF universe median in Vanguard?",
-      "answer": 40
+      "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in Vanguard? Return the answer as a decimal (not percentage points).",
+      "answer": 0.9753086419753086
     },
     {
       "id": 99,
-      "question": "How many ETFs have ThreeYearNAVReturn below the ETF universe median in iShares?",
-      "answer": 178
+      "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in iShares? Return the answer as a decimal (not percentage points).",
+      "answer": 0.8217270194986073
     },
     {
       "id": 100,
-      "question": "How many ETFs have ThreeYearNAVReturn below the ETF universe median in Schwab?",
-      "answer": 13
+      "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in Schwab? Return the answer as a decimal (not percentage points).",
+      "answer": 0.9259259259259259
     },
     {
       "id": 101,
-      "question": "What proportion of ETFs fall into the top quartile of OneYearNAVReturn in Vanguard?",
-      "answer": 0.2558139534883721
+      "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in Vanguard? Return the answer as a decimal (not percentage points).",
+      "answer": 0.9302325581395349
     },
     {
       "id": 102,
-      "question": "What proportion of ETFs fall into the top quartile of OneYearNAVReturn in iShares?",
-      "answer": 0.25
+      "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in iShares? Return the answer as a decimal (not percentage points).",
+      "answer": 0.9221698113207547
     },
     {
       "id": 103,
-      "question": "What proportion of ETFs fall into the top quartile of OneYearNAVReturn in Schwab?",
-      "answer": 0.26666666666666666
+      "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in Schwab? Return the answer as a decimal (not percentage points).",
+      "answer": 0.9333333333333333
     },
     {
       "id": 104,
-      "question": "How many ETFs fall into the bottom quartile of FiveYearNAVReturn in Vanguard?",
-      "answer": 20
+      "question": "What is the bottom quartile of FiveYearNAVReturn in Vanguard? Return the answer as a decimal (not percentage points).",
+      "answer": 0.05752499999999999
     },
     {
       "id": 105,
-      "question": "How many ETFs fall into the bottom quartile of FiveYearNAVReturn in iShares?",
-      "answer": 83
+      "question": "What is the bottom quartile of FiveYearNAVReturn in iShares? Return the answer as a decimal (not percentage points).",
+      "answer": 0.032875
     },
     {
       "id": 106,
-      "question": "How many ETFs fall into the bottom quartile of FiveYearNAVReturn in Schwab?",
-      "answer": 6
+      "question": "What is the bottom quartile of FiveYearNAVReturn in Schwab? Return the answer as a decimal (not percentage points).",
+      "answer": 0.020025
     },
     {
       "id": 107,
@@ -612,13 +612,13 @@
     },
     {
       "id": 123,
-      "question": "What is the ratio of ETFs with above-median SharpeRatio to those with below-median SharpeRatio in iShares?",
-      "answer": 1.0
+      "question": "What proportion of ETFs with a non-null SharpeRatio have a SharpeRatio above 0.5 in iShares?",
+      "answer": 0.6333333333333333
     },
     {
       "id": 124,
-      "question": "What is the ratio of ETFs with above-median SharpeRatio to those with below-median SharpeRatio in Schwab?",
-      "answer": 1.0
+      "question": "What proportion of ETFs with a non-null SharpeRatio have a SharpeRatio above 0.5 in Schwab?",
+      "answer": 0.8260869565217391
     },
     {
       "id": 125,
@@ -652,18 +652,18 @@
     },
     {
       "id": 131,
-      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Vanguard?",
-      "answer": 14.299428571428571
+      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.14299428571428571
     },
     {
       "id": 132,
-      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in iShares?",
-      "answer": 14.987701149425288
+      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.14987701149425288
     },
     {
       "id": 133,
-      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Schwab?",
-      "answer": 11.40857142857143
+      "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1140857142857143
     },
     {
       "id": 134,
@@ -677,12 +677,12 @@
     },
     {
       "id": 136,
-      "question": "What percentage of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in iShares?",
+      "question": "What proportion of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in iShares? Return the answer as a decimal value (not percentage points).",
       "answer": 0.3333333333333333
     },
     {
       "id": 137,
-      "question": "What percentage of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in Schwab?",
+      "question": "What proportion of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in Schwab? Return the answer as a decimal value (not percentage points).",
       "answer": 0.34782608695652173
     },
     {
@@ -812,18 +812,18 @@
     },
     {
       "id": 163,
-      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Vanguard?",
-      "answer": 65.56246468539318
+      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.6556246468539318
     },
     {
       "id": 164,
-      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in iShares?",
-      "answer": 44.06669994729369
+      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.4406669994729369
     },
     {
       "id": 165,
-      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Schwab?",
-      "answer": 16.152039912448625
+      "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.16152039912448625
     },
     {
       "id": 166,
@@ -842,18 +842,18 @@
     },
     {
       "id": 169,
-      "question": "What proportion of ETFs fall into the top quartile of TotalNetAssets in Vanguard?",
-      "answer": 0.25510204081632654
+      "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.42718446601941745
     },
     {
       "id": 170,
-      "question": "What proportion of ETFs fall into the top quartile of TotalNetAssets in iShares?",
-      "answer": 0.25162689804772237
+      "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.14861995753715498
     },
     {
       "id": 171,
-      "question": "What proportion of ETFs fall into the top quartile of TotalNetAssets in Schwab?",
-      "answer": 0.25806451612903225
+      "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.3939393939393939
     },
     {
       "id": 172,
@@ -872,47 +872,47 @@
     },
     {
       "id": 175,
-      "question": "What is the ratio of ETFs with above-median PortfolioTurnover to those with below-median PortfolioTurnover in Vanguard?",
-      "answer": 1.0
+      "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.34285714285714286
     },
     {
       "id": 176,
-      "question": "What is the ratio of ETFs with above-median PortfolioTurnover to those with below-median PortfolioTurnover in iShares?",
-      "answer": 1.0940594059405941
+      "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.4198717948717949
     },
     {
       "id": 177,
-      "question": "What is the ratio of ETFs with above-median PortfolioTurnover to those with below-median PortfolioTurnover in Schwab?",
-      "answer": 1.0
+      "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.631578947368421
     },
     {
       "id": 178,
-      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Vanguard?",
-      "answer": 40.23777777777778
+      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.4023777777777778
     },
     {
       "id": 179,
-      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in iShares?",
-      "answer": 23.32958904109589
+      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.2332958904109589
     },
     {
       "id": 180,
-      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Schwab?",
-      "answer": 25.179285714285715
+      "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.25179285714285715
     },
     {
       "id": 181,
-      "question": "How many ETFs have a non-null TotalNetAssets value in Vanguard?",
+      "question": "How many ETFs report a non-null TotalNetAssets value in Vanguard?",
       "answer": 98
     },
     {
       "id": 182,
-      "question": "How many ETFs have a non-null TotalNetAssets value in iShares?",
+      "question": "How many ETFs report a non-null TotalNetAssets value in iShares?",
       "answer": 461
     },
     {
       "id": 183,
-      "question": "How many ETFs have a non-null TotalNetAssets value in Schwab?",
+      "question": "How many ETFs report a non-null TotalNetAssets value in Schwab?",
       "answer": 31
     },
     {
@@ -947,17 +947,17 @@
     },
     {
       "id": 190,
-      "question": "How many ETFs have a non-null PortfolioTurnover value in Vanguard?",
+      "question": "How many ETFs report a non-null PortfolioTurnover value in Vanguard?",
       "answer": 94
     },
     {
       "id": 191,
-      "question": "How many ETFs have a non-null PortfolioTurnover value in iShares?",
+      "question": "How many ETFs report a non-null PortfolioTurnover value in iShares?",
       "answer": 443
     },
     {
       "id": 192,
-      "question": "How many ETFs have a non-null PortfolioTurnover value in Schwab?",
+      "question": "How many ETFs report a non-null PortfolioTurnover value in Schwab?",
       "answer": 31
     },
     {
@@ -977,47 +977,47 @@
     },
     {
       "id": 196,
-      "question": "What is the average TotalExpenseRatio across all ETFs in Vanguard?",
+      "question": "What is the average TotalExpenseRatio across all ETFs in Vanguard? In percentage",
       "answer": 0.08333333333333333
     },
     {
       "id": 197,
-      "question": "What is the average TotalExpenseRatio across all ETFs in iShares?",
+      "question": "What is the average TotalExpenseRatio across all ETFs in iShares? In percentage",
       "answer": 0.30210191082802546
     },
     {
       "id": 198,
-      "question": "What is the average TotalExpenseRatio across all ETFs in Schwab?",
+      "question": "What is the average TotalExpenseRatio across all ETFs in Schwab? In percentage",
       "answer": 0.12
     },
     {
       "id": 199,
-      "question": "What is the median TotalExpenseRatio across ETFs in Vanguard?",
+      "question": "What is the median TotalExpenseRatio across ETFs in Vanguard? In percentage",
       "answer": 0.07
     },
     {
       "id": 200,
-      "question": "What is the median TotalExpenseRatio across ETFs in iShares?",
+      "question": "What is the median TotalExpenseRatio across ETFs in iShares? In percentage",
       "answer": 0.26
     },
     {
       "id": 201,
-      "question": "What is the median TotalExpenseRatio across ETFs in Schwab?",
+      "question": "What is the median TotalExpenseRatio across ETFs in Schwab? In percentage",
       "answer": 0.04
     },
     {
       "id": 202,
-      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Vanguard?",
+      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Vanguard? In percentage",
       "answer": 0.054597235148023573
     },
     {
       "id": 203,
-      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in iShares?",
+      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in iShares? In percentage",
       "answer": 0.19243688718520796
     },
     {
       "id": 204,
-      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Schwab?",
+      "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Schwab? In percentage",
       "answer": 0.1395752485220786
     },
     {
@@ -1037,78 +1037,78 @@
     },
     {
       "id": 208,
-      "question": "How many ETFs have TotalExpenseRatio below the ETF universe median in Vanguard?",
-      "answer": 36
+      "question": "How many ETFs have TotalExpenseRatio below 0.05% in Vanguard?",
+      "answer": 24
     },
     {
       "id": 209,
-      "question": "How many ETFs have TotalExpenseRatio below the ETF universe median in iShares?",
-      "answer": 233
+      "question": "How many ETFs have TotalExpenseRatio below 0.05% in iShares?",
+      "answer": 17
     },
     {
       "id": 210,
-      "question": "How many ETFs have TotalExpenseRatio below the ETF universe median in Schwab?",
-      "answer": 14
+      "question": "How many ETFs have TotalExpenseRatio below 0.05% in Schwab?",
+      "answer": 18
     },
     {
       "id": 211,
-      "question": "What proportion of ETFs fall into the top quartile of TotalExpenseRatio values in Vanguard?",
-      "answer": 0.28431372549019607
+      "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.17647058823529413
     },
     {
       "id": 212,
-      "question": "What proportion of ETFs fall into the top quartile of TotalExpenseRatio values in iShares?",
-      "answer": 0.25902335456475584
+      "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.7855626326963907
     },
     {
       "id": 213,
-      "question": "What proportion of ETFs fall into the top quartile of TotalExpenseRatio values in Schwab?",
-      "answer": 0.2727272727272727
+      "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.30303030303030304
     },
     {
       "id": 214,
-      "question": "How many ETFs fall into the bottom quartile of TotalExpenseRatio values in Vanguard?",
-      "answer": 32
+      "question": "What is the bottom quartile of TotalExpenseRatio values in Vanguard? In percentage.",
+      "answer": 0.05
     },
     {
       "id": 215,
-      "question": "How many ETFs fall into the bottom quartile of TotalExpenseRatio values in iShares?",
-      "answer": 119
+      "question": "What is the bottom quartile of TotalExpenseRatio values in iShares? In percentage.",
+      "answer": 0.14
     },
     {
       "id": 216,
-      "question": "How many ETFs fall into the bottom quartile of TotalExpenseRatio values in Schwab?",
-      "answer": 14
+      "question": "What is the bottom quartile of TotalExpenseRatio values in Schwab? In percentage.",
+      "answer": 0.03
     },
     {
       "id": 217,
-      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Vanguard?",
-      "answer": 64.24583333333334
+      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.6424583333333334
     },
     {
       "id": 218,
-      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in iShares?",
-      "answer": 29.7766
+      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.297766
     },
     {
       "id": 219,
-      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Schwab?",
-      "answer": 33.06
+      "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.3306
     },
     {
       "id": 220,
-      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Vanguard?",
-      "answer": 0.07
+      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1809702743902439
     },
     {
       "id": 221,
-      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in iShares?",
-      "answer": 0.26
+      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.06034807084933846
     },
     {
       "id": 222,
-      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Schwab?",
-      "answer": 0.04
+      "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.014983516483516474
     },
     {
       "id": 223,
@@ -1142,18 +1142,18 @@
     },
     {
       "id": 229,
-      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Vanguard?",
-      "answer": 7.85
+      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.07902727272727272
     },
     {
       "id": 230,
-      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in iShares?",
-      "answer": 7.512710280373832
+      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.07512710280373832
     },
     {
       "id": 231,
-      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Schwab?",
-      "answer": 7.5600000000000005
+      "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.075600000000000005
     },
     {
       "id": 232,
@@ -1172,18 +1172,18 @@
     },
     {
       "id": 235,
-      "question": "What is the ratio of ETFs with above-median TotalExpenseRatio to those with below-median TotalExpenseRatio in Vanguard?",
-      "answer": 0.07
+      "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in Vanguard?",
+      "answer": 0.7
     },
     {
       "id": 236,
-      "question": "What is the ratio of ETFs with above-median TotalExpenseRatio to those with below-median TotalExpenseRatio in iShares?",
-      "answer": 0.26
+      "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in iShares?",
+      "answer": 0.8991935483870968
     },
     {
       "id": 237,
-      "question": "What is the ratio of ETFs with above-median TotalExpenseRatio to those with below-median TotalExpenseRatio in Schwab?",
-      "answer": 0.04
+      "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in Schwab?",
+      "answer": 0.43478260869565216
     },
     {
       "id": 238,
@@ -1242,118 +1242,263 @@
     },
     {
       "id": 249,
-      "question": "What percentage of ETFs simultaneously rank in the top half for low cost and high SharpeRatio in iShares?",
-      "answer": 0.26666666666666666
+      "question": "What proportion of ETFs simultaneously rank in the top half for TotalExpenseRatio and SharpeRatio in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.2
     },
     {
       "id": 250,
-      "question": "What percentage of ETFs simultaneously rank in the top half for low cost and high SharpeRatio in Schwab?",
-      "answer": 0.34782608695652173
+      "question": "What proportion of ETFs simultaneously rank in the top half for TotalExpenseRatio and SharpeRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.21739130434782608
     },
     {
       "id": 251,
-      "question": "How many ETFs would change cost-efficiency classification if PortfolioTurnover were weighted more heavily in Vanguard?",
-      "answer": 94
+      "question": "How many ETFs report a non-null TotalExpenseRatio value in Vanguard?",
+      "answer": 102
     },
     {
       "id": 252,
-      "question": "How many ETFs would change cost-efficiency classification if PortfolioTurnover were weighted more heavily in iShares?",
-      "answer": 443
+      "question": "How many ETFs report a non-null TotalExpenseRatio value in iShares?",
+      "answer": 471
     },
     {
       "id": 253,
-      "question": "How many ETFs would change cost-efficiency classification if PortfolioTurnover were weighted more heavily in Schwab?",
-      "answer": 31
+      "question": "How many ETFs report a non-null TotalExpenseRatio value in Schwab?",
+      "answer": 33
     },
     {
       "id": 254,
-      "question": "How many ETFs have a non-null TotalExpenseRatio value in Vanguard?",
-      "answer": 102
-    },
-    {
-      "id": 255,
-      "question": "How many ETFs have a non-null TotalExpenseRatio value in iShares?",
-      "answer": 471
-    },
-    {
-      "id": 256,
-      "question": "How many ETFs have a non-null TotalExpenseRatio value in Schwab?",
-      "answer": 33
-    },
-    {
-      "id": 257,
-      "question": "How many ETFs have TotalExpenseRatio greater than or equal to 0.01 (1.00%) in Vanguard?",
-      "answer": 102
-    },
-    {
-      "id": 258,
-      "question": "How many ETFs have TotalExpenseRatio greater than or equal to 0.01 (1.00%) in iShares?",
-      "answer": 471
-    },
-    {
-      "id": 259,
-      "question": "How many ETFs have TotalExpenseRatio greater than or equal to 0.01 (1.00%) in Schwab?",
-      "answer": 33
-    },
-    {
-      "id": 260,
-      "question": "How many ETFs have TotalExpenseRatio less than 0.003 (0.30%) in Vanguard?",
-      "answer": 0
-    },
-    {
-      "id": 261,
-      "question": "How many ETFs have TotalExpenseRatio less than 0.003 (0.30%) in iShares?",
-      "answer": 0
-    },
-    {
-      "id": 262,
-      "question": "How many ETFs have TotalExpenseRatio less than 0.003 (0.30%) in Schwab?",
-      "answer": 0
-    },
-    {
-      "id": 263,
-      "question": "How many ETFs have non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Vanguard?",
+      "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Vanguard?",
       "answer": 94
     },
     {
-      "id": 264,
-      "question": "How many ETFs have non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in iShares?",
+      "id": 255,
+      "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in iShares?",
       "answer": 443
     },
     {
-      "id": 265,
-      "question": "How many ETFs have non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Schwab?",
+      "id": 256,
+      "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Schwab?",
       "answer": 31
     },
+    {
+      "id": 257,
+      "question": "How many ETFs report PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in Vanguard?",
+      "answer": 55
+    },
+    {
+      "id": 258,
+      "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in iShares?",
+      "answer": 386
+    },
+    {
+      "id": 259,
+      "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in Schwab?",
+      "answer": 12
+    },
+    {
+      "id": 260,
+      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in Vanguard?",
+      "answer": 20
+    },
+    {
+      "id": 261,
+      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in iShares?",
+      "answer": 17
+    },
+    {
+      "id": 262,
+      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in Schwab?",
+      "answer": 16
+    },
+    {
+      "id": 263,
+      "question": "What is the SharpeRatio for ETF FBCG in Fidelity?",
+      "answer": 1.15
+    },
+    {
+      "id": 264,
+      "question": "What is the SharpeRatio for ETF FNDA in Schwab?",
+      "answer": 0.5
+    },
+    {
+      "id": 265,
+      "question": "What is the Beta value for ETF FBOT in Fidelity?",
+      "answer": 1.49
+    }, 
     {
       "id": 266,
-      "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.006 in Vanguard?",
-      "answer": 87
-    },
+      "question": "What is the Beta value for ETF AAXJ in iShares?",
+      "answer": 0.67
+    },   
     {
       "id": 267,
-      "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.006 in iShares?",
-      "answer": 416
-    },
+      "question": "What is the Beta value for ETF FNDA in Schwab?",
+      "answer": 0.96
+    },  
     {
       "id": 268,
-      "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.006 in Schwab?",
-      "answer": 31
+      "question": "What is the Beta value for ETF FNDA in Schwab?",
+      "answer": 0.96
     },
     {
       "id": 269,
-      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.003 in Vanguard?",
-      "answer": 0
-    },
+      "question": "What is the TotalNetAssets for ETF FLTB in Fidelity?",
+      "answer": 270460000
+    },     
     {
       "id": 270,
-      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.003 in iShares?",
-      "answer": 0
-    },
+      "question": "What is the TotalNetAssets for ETF AOR in iShares?",
+      "answer": 2815600000
+    },  
     {
       "id": 271,
-      "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.003 in Schwab?",
-      "answer": 0
+      "question": "What is the TotalNetAssets for ETF SCHH in Schwab?",
+      "answer": 8391826721
+    },     
+    {
+      "id": 272,
+      "question": "What is the TotalNetAssets for ETF EDV in Vanguard?",
+      "answer": 3866000000
+    },  
+    {
+      "id": 273,
+      "question": "What is the AverageDailyVolume for ETF FPRO in Fidelity?",
+      "answer": 2790
+    }, 
+    {
+      "id": 274,
+      "question": "What is the AverageDailyVolume for ETF FIGB in Fidelity?",
+      "answer": 41429
+    },  
+    {
+      "id": 275,
+      "question": "What is the AverageDailyVolume for ETF FTBD in Fidelity?",
+      "answer": 7062
+    },  
+    {
+      "id": 276,
+      "question": "What is the StandardDeviation for ETF VIS in Vanguard? Return the answer as a decimal value (not percentage).",
+      "answer": 0.1786
+    },  
+    {
+      "id": 277,
+      "question": "What is the StandardDeviation for ETF SCHV in Schwab? Return the answer as a decimal value (not percentage).",
+      "answer": 0.1421
+    },   
+    {
+      "id": 278,
+      "question": "What is the StandardDeviation for ETF CMDY in iShares? Return the answer as a decimal value (not percentage).",
+      "answer": 0.0948
+    },         
+    {
+      "id": 279,
+      "question": "What is the StandardDeviation for ETF FMAG in Fidelity? Return the answer as a decimal value (not percentage).",
+      "answer": 0.1485
+    },
+    {
+      "id": 280,
+      "question": "What is the Beta for ETF IYG in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 1.13
+    },
+    {
+      "id": 281,
+      "question": "What is the PortfolioTurnover for ETF JXI in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.07
+    },
+    {
+      "id": 282,
+      "question": "What is the FiveYearNAVReturn for ETF EWM in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.0355
+    },
+    {
+      "id": 283,
+      "question": "What is the TotalExpenseRatio for ETF AAXJ in iShares? In percentage.",
+      "answer": 0.72
+    },
+    {
+      "id": 284,
+      "question": "What is the OneYearNAVReturn for ETF INTF in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1813
+    },
+    {
+      "id": 285,
+      "question": "What is the StandardDeviation for ETF FMAG in Fidelity? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1485
+    },
+    {
+      "id": 286,
+      "question": "What is the StandardDeviation for ETF USXF in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1517
+    },
+    {
+      "id": 287,
+      "question": "What is the FiveYearNAVReturn for ETF EWU in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.148
+    },
+    {
+      "id": 288,
+      "question": "What is the FiveYearNAVReturn for ETF VOOG in Vanguard? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1676
+    },
+    {
+      "id": 289,
+      "question": "What is the PortfolioTurnover for ETF BELT in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.39
+    },
+    {
+      "id": 290,
+      "question": "What is the OneYearNAVReturn for ETF EPU in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.4702
+    },
+    {
+      "id": 291,
+      "question": "What is the TotalExpenseRatio for ETF SCCR in Schwab? In percentage.",
+      "answer": 0.2
+    },
+    {
+      "id": 292,
+      "question": "What is the TotalExpenseRatio for ETF IXJ in iShares? In percentage.",
+      "answer": 0.4
+    },
+    {
+      "id": 293,
+      "question": "What is the StandardDeviation for ETF IGOV in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.11
+    },
+    {
+      "id": 294,
+      "question": "What is the TotalExpenseRatio for ETF FFLV in Fidelity? Return the answer in percentage.",
+      "answer": 0.38
+    },
+    {
+      "id": 295,
+      "question": "What is the FiveYearNAVReturn for ETF IWV in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.1555
+    },
+    {
+      "id": 296,
+      "question": "What is the TotalExpenseRatio for ETF FDFF in Fidelity? Return the answer in percentage.",
+      "answer": 0.51
+    },
+    {
+      "id": 297,
+      "question": "What is the TotalExpenseRatio for ETF VEGI in iShares? Return the answer in percentage.",
+      "answer": 0.39
+    },
+    {
+      "id": 298,
+      "question": "What is the FiveYearNAVReturn for ETF IBTH in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": -0.0059
+    },
+    {
+      "id": 299,
+      "question": "What is the OneYearNAVReturn for ETF GSG in iShares? Return the answer as a decimal value (not percentage points).",
+      "answer": 0.0915
+    },
+    {
+      "id": 300,
+      "question": "What is the OneYearNAVReturn for ETF FPRO in Fidelity? Return the answer as a decimal value (not percentage points).",
+      "answer": -0.0428
     }
   ]
 }
