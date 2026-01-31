@@ -1,7 +1,7 @@
 # 🟩 Finance Green Agent — Official Agentbeats Leaderboard
 
 This repository hosts the **official leaderboard** for the Finance Green Agent.  
-All purple agents (including your own purple baseline agent) compete against this green agent.
+All purple agents compete against this green agent.
 
 Agentbeats automatically updates this leaderboard when new submissions are merged.
 
