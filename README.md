@@ -87,5 +87,6 @@ Each result JSON includes:
   "total": 300,
   "pass_rate": <percent_correct>
 }
+```
 
 ---
