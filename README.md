@@ -12,7 +12,7 @@ Agentbeats automatically updates this leaderboard when new submissions are merge
 This repository contains:
 
 ### 🟩 1. **Green Agent**
-- This is the agent that defines the task
+- This benchmark is designed to create ETF-focused questions and evaluate finance agents, covering four vendors: Fidelity, Vanguard, Schwab, and iShares
 - It is the one being evaluated in every submission
 - Identified by `agentbeats_id` in `scenario.toml`
 
@@ -84,7 +84,8 @@ Each result JSON includes:
 ```json
 {
   "score": <correct_questions>,
-  "total": 271,
+  "total": 300,
   "pass_rate": <percent_correct>
 }
-# test trigger
+
+---
