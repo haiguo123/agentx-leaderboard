@@ -17,7 +17,7 @@ This repository contains:
 - Identified by `agentbeats_id` in `scenario.toml`
 
 ### 🟪 2. **Purple Agent**
-- Included in the repo to act as a baseline competitor
+- Included in the repo to act as a baseline competitor (GPT-4o-mini)
 - Other developers will provide their own purple agents via PRs
 
 ### ⚙️ 3. Scenario Runner (GitHub Actions)
