@@ -3,13 +3,10 @@ agentbeats_id = "019c0e01-6248-7f41-a72e-d51ee2ddfb99"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [[participants]]
-agentbeats_id = "019c0dff-f457-7ff2-a20a-deba84b9cdfc"
 name = "agent"
+agentbeats_id = ""  
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
-domain = "airline"
+domain = "finance_etf"
 num_tasks = 3
-# trigger workflow
-# run
-# trigger
