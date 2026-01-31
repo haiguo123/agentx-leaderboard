@@ -20,11 +20,18 @@ class EvalRequest(BaseModel):
     config: dict[str, Any]
 
 
-def extract_number(text: str) -> int:
-    """Extract first number from text."""
-    match = re.search(r'-?\d+', str(text))
-    return int(match.group()) if match else -1
-
+def extract_number(text: str):
+    """
+    Extract the first number (integer or float) from text.
+    Supports:
+    - integers (e.g., "22")
+    - floats (e.g., "22.5", "-3.14")
+    Returns:
+        float if a number is found
+        -1 if no number is found
+    """
+    match = re.search(r'-?\d+(?:\.\d+)?', str(text))
+    return float(match.group()) if match else -1
 
 class Agent:
     # Purple Agent role
