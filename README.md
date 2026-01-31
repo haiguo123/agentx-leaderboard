@@ -1,4 +1,4 @@
-```md
+```
 # 🟩 Finance Green Agent — Official Agentbeats Leaderboard
 
 This repository hosts the **official leaderboard** for the Finance Green Agent.  
