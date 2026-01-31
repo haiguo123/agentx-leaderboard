@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/haiguo123/green-agent@sha256:9d3d8ea5368782aaeb6a13e29b3deae5c8df567044b086666861f4543e061641",
+    "agent": "ghcr.io/haiguo123/purple-agent@sha256:53c0471b5ed46b7079ef375d997ed07321cd775bc3c320a4700a164444df3616",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T11:44:12Z",
+  "github_actions": {
+    "run_url": "https://github.com/haiguo123/agentx-leaderboard/actions/runs/21543886281",
+    "run_logs_url": "https://api.github.com/repos/haiguo123/agentx-leaderboard/actions/runs/21543886281/logs",
+    "ref": "refs/heads/main",
+    "sha": "a9d41080908abf326f362a3e5f786c36429b3973",
+    "repository_url": "https://github.com/haiguo123/agentx-leaderboard",
+    "workflow_ref": "haiguo123/agentx-leaderboard/.github/workflows/run-scenario.yml@refs/heads/main",
+    "workflow_sha": "a9d41080908abf326f362a3e5f786c36429b3973"
+  }
+}
