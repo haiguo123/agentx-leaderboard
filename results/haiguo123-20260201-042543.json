@@ -1,0 +1,2114 @@
+{
+  "participants": {
+    "agent": "019c0dff-f457-7ff2-a20a-deba84b9cdfc"
+  },
+  "results": [
+    {
+      "score": 24,
+      "total": 300,
+      "pass_rate": 8.0,
+      "results": [
+        {
+          "question_id": 1,
+          "question": "What is the average PriceEarningsRatio across all ETFs in Vanguard? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 18.75,
+          "ground_truth": 23.647540983606557
+        },
+        {
+          "question_id": 2,
+          "question": "What is the average PriceEarningsRatio across all ETFs in iShares? Return the answer as a decimal value.",
+          "correct": true,
+          "agent_answer": 22.3,
+          "ground_truth": 21.792839999999998
+        },
+        {
+          "question_id": 3,
+          "question": "What is the average PriceEarningsRatio across all ETFs in Schwab? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 19.4,
+          "ground_truth": 21.6705
+        },
+        {
+          "question_id": 4,
+          "question": "What is the median PriceBookRatio across the ETF universe in Vanguard? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 2.1,
+          "ground_truth": 2.8
+        },
+        {
+          "question_id": 5,
+          "question": "What is the median PriceBookRatio across the ETF universe in iShares? Return the answer as a decimal value.",
+          "correct": true,
+          "agent_answer": 2.3,
+          "ground_truth": 2.29
+        },
+        {
+          "question_id": 6,
+          "question": "What is the median PriceBookRatio across the ETF universe in Schwab? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 1.95,
+          "ground_truth": 2.5300000000000002
+        },
+        {
+          "question_id": 7,
+          "question": "What is the standard deviation of ReturnOnEquity across ETFs in Vanguard? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 15.6,
+          "ground_truth": 8.991452528887365
+        },
+        {
+          "question_id": 8,
+          "question": "What is the standard deviation of ReturnOnEquity across ETFs in Schwab? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 14.75,
+          "ground_truth": 7.691423299261396
+        },
+        {
+          "question_id": 9,
+          "question": "How many ETFs have a PriceEarningsRatio above the ETF universe average in Vanguard?",
+          "correct": true,
+          "agent_answer": 25.0,
+          "ground_truth": 26
+        },
+        {
+          "question_id": 10,
+          "question": "How many ETFs have a PriceEarningsRatio above the ETF universe average in iShares?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 96
+        },
+        {
+          "question_id": 11,
+          "question": "How many ETFs have a PriceEarningsRatio above the ETF universe average in Schwab?",
+          "correct": false,
+          "agent_answer": 22.0,
+          "ground_truth": 7
+        },
+        {
+          "question_id": 12,
+          "question": "How many ETFs have ReturnOnEquity below 20% in Vanguard?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 45
+        },
+        {
+          "question_id": 13,
+          "question": "How many ETFs have ReturnOnEquity below 20% in Schwab?",
+          "correct": false,
+          "agent_answer": 18.0,
+          "ground_truth": 14
+        },
+        {
+          "question_id": 14,
+          "question": "How many ETFs are available on Vanguard?",
+          "correct": false,
+          "agent_answer": 85.0,
+          "ground_truth": 103
+        },
+        {
+          "question_id": 15,
+          "question": "How many ETFs are available on iShares?",
+          "correct": false,
+          "agent_answer": 150.0,
+          "ground_truth": 471
+        },
+        {
+          "question_id": 16,
+          "question": "How many ETFs are available on Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 33
+        },
+        {
+          "question_id": 17,
+          "question": "What is the bottom quartile of DividendYield values in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 1.25,
+          "ground_truth": 0.0125
+        },
+        {
+          "question_id": 18,
+          "question": "What is the bottom quartile of DividendYield values in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 1.1,
+          "ground_truth": 0.05
+        },
+        {
+          "question_id": 19,
+          "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 0.04377537313432835
+        },
+        {
+          "question_id": 20,
+          "question": "What is the average DividendYield among ETFs with monthly DistributionFrequency in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 2.8,
+          "ground_truth": 0.04405454545454545
+        },
+        {
+          "question_id": 21,
+          "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.5,
+          "ground_truth": 0.02737255623291991
+        },
+        {
+          "question_id": 22,
+          "question": "What is the difference between the average DividendYield of monthly and quarterly distributing ETFs in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.4,
+          "ground_truth": 0.02037121212121212
+        },
+        {
+          "question_id": 23,
+          "question": "How many distinct DistributionFrequency categories exist across ETFs in Vanguard?",
+          "correct": true,
+          "agent_answer": 3.0,
+          "ground_truth": 3
+        },
+        {
+          "question_id": 24,
+          "question": "How many distinct DistributionFrequency categories exist across ETFs in iShares?",
+          "correct": false,
+          "agent_answer": 4.0,
+          "ground_truth": 5
+        },
+        {
+          "question_id": 25,
+          "question": "How many distinct DistributionFrequency categories exist across ETFs in Schwab?",
+          "correct": true,
+          "agent_answer": 3.0,
+          "ground_truth": 3
+        },
+        {
+          "question_id": 26,
+          "question": "What is the correlation between PriceEarningsRatio and PriceBookRatio across ETFs in Vanguard?",
+          "correct": false,
+          "agent_answer": 0.65,
+          "ground_truth": 0.8798206524150451
+        },
+        {
+          "question_id": 27,
+          "question": "What is the correlation between PriceEarningsRatio and PriceBookRatio across ETFs in iShares?",
+          "correct": false,
+          "agent_answer": 0.7,
+          "ground_truth": 0.8640745283461396
+        },
+        {
+          "question_id": 28,
+          "question": "What is the correlation between PriceEarningsRatio and PriceBookRatio across ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": 0.6,
+          "ground_truth": 0.7965089448806578
+        },
+        {
+          "question_id": 29,
+          "question": "What is the correlation between ReturnOnEquity and DividendYield across ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": -0.3,
+          "ground_truth": 0.2574451871487929
+        },
+        {
+          "question_id": 30,
+          "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 25.5,
+          "ground_truth": 0.29371428571428576
+        },
+        {
+          "question_id": 31,
+          "question": "What is the average ReturnOnEquity for ETFs in the top decile of PriceEarningsRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 22.75,
+          "ground_truth": 0.2182
+        },
+        {
+          "question_id": 32,
+          "question": "How many ETFs have a PriceBookRatio closer to the universe median than to the universe mean in Vanguard?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 37
+        },
+        {
+          "question_id": 33,
+          "question": "How many ETFs have a PriceBookRatio closer to the universe median than to the universe mean in iShares?",
+          "correct": false,
+          "agent_answer": 35.0,
+          "ground_truth": 160
+        },
+        {
+          "question_id": 34,
+          "question": "How many ETFs have a PriceBookRatio closer to the universe median than to the universe mean in Schwab?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 13
+        },
+        {
+          "question_id": 35,
+          "question": "What proportion of iShares ETFs have a DividendYield above 3%? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 0.4,
+          "ground_truth": 0.9427
+        },
+        {
+          "question_id": 36,
+          "question": "What proportion of Schwab ETFs have a DividendYield above 3%? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 0.35,
+          "ground_truth": 0.5455
+        },
+        {
+          "question_id": 37,
+          "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among Vanguard ETFs?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 5
+        },
+        {
+          "question_id": 38,
+          "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among iShares ETFs?",
+          "correct": true,
+          "agent_answer": 12.0,
+          "ground_truth": 11
+        },
+        {
+          "question_id": 39,
+          "question": "How many ETFs are in the top 50% based on PriceEarningsRatio while simultaneously in the bottom 50% based on PriceBookRatio among Schwab ETFs?",
+          "correct": false,
+          "agent_answer": 8.0,
+          "ground_truth": 1
+        },
+        {
+          "question_id": 40,
+          "question": "How many ETFs change quartile classification when moving from PriceEarningsRatio to PriceBookRatio in Vanguard?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 17
+        },
+        {
+          "question_id": 41,
+          "question": "How many ETFs change quartile classification when moving from PriceEarningsRatio to PriceBookRatio in iShares?",
+          "correct": false,
+          "agent_answer": 18.0,
+          "ground_truth": 59
+        },
+        {
+          "question_id": 42,
+          "question": "How many ETFs change quartile classification when moving from PriceEarningsRatio to PriceBookRatio in Schwab?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 4
+        },
+        {
+          "question_id": 43,
+          "question": "What is the average DividendYield among ETFs whose PriceEarningsRatio and PriceBookRatio ranks differ by more than the median rank difference in iShares?",
+          "correct": false,
+          "agent_answer": 2.5,
+          "ground_truth": 1.3166666666666667
+        },
+        {
+          "question_id": 44,
+          "question": "What is the average DividendYield among ETFs whose PriceEarningsRatio and PriceBookRatio ranks differ by more than the median rank difference in Schwab?",
+          "correct": true,
+          "agent_answer": 2.3,
+          "ground_truth": 2.51
+        },
+        {
+          "question_id": 45,
+          "question": "How many ETFs have ReturnOnEquity values that are more than one standard deviation away from the mean in Vanguard?",
+          "correct": false,
+          "agent_answer": 12.0,
+          "ground_truth": 19
+        },
+        {
+          "question_id": 46,
+          "question": "How many ETFs have ReturnOnEquity values that are more than one standard deviation away from the mean in Schwab?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 6
+        },
+        {
+          "question_id": 47,
+          "question": "What percentage of ETFs simultaneously rank in the top half for ReturnOnEquity and DividendYield in Schwab? Return the answer as a decimal value.",
+          "correct": false,
+          "agent_answer": 0.25,
+          "ground_truth": 0.0
+        },
+        {
+          "question_id": 48,
+          "question": "How many Vanguard ETFs report a PriceEarningsRatio value?",
+          "correct": false,
+          "agent_answer": 75.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 49,
+          "question": "How many iShares ETFs report a PriceEarningsRatio value?",
+          "correct": false,
+          "agent_answer": 120.0,
+          "ground_truth": 250
+        },
+        {
+          "question_id": 50,
+          "question": "How many Schwab ETFs report a PriceEarningsRatio value?",
+          "correct": false,
+          "agent_answer": 65.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 51,
+          "question": "How many Vanguard ETFs report a PriceBookRatio value?",
+          "correct": false,
+          "agent_answer": 80.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 52,
+          "question": "How many iShares ETFs report a PriceBookRatio value?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 261
+        },
+        {
+          "question_id": 53,
+          "question": "How many Schwab ETFs report a PriceBookRatio value?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 54,
+          "question": "How many Vanguard ETFs report a ReturnOnEquity value?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 55,
+          "question": "How many Schwab ETFs report a ReturnOnEquity value?",
+          "correct": false,
+          "agent_answer": 55.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 56,
+          "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in Vanguard?",
+          "correct": true,
+          "agent_answer": 65.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 57,
+          "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in iShares?",
+          "correct": false,
+          "agent_answer": 100.0,
+          "ground_truth": 250
+        },
+        {
+          "question_id": 58,
+          "question": "How many ETFs report both PriceEarningsRatio value and PriceBookRatio value in Schwab?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 59,
+          "question": "How many ETFs report both PriceEarningsRatio value and ReturnOnEquity value in Vanguard?",
+          "correct": true,
+          "agent_answer": 60.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 60,
+          "question": "How many ETFs report both PriceEarningsRatio value and ReturnOnEquity value in Schwab?",
+          "correct": false,
+          "agent_answer": 45.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 61,
+          "question": "How many ETFs report DividendYield value in iShares?",
+          "correct": false,
+          "agent_answer": 140.0,
+          "ground_truth": 455
+        },
+        {
+          "question_id": 62,
+          "question": "How many ETFs report DividendYield value in Schwab?",
+          "correct": false,
+          "agent_answer": 65.0,
+          "ground_truth": 18
+        },
+        {
+          "question_id": 63,
+          "question": "How many ETFs have a DividendYield value greater than 0 in iShares?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 444
+        },
+        {
+          "question_id": 64,
+          "question": "How many ETFs have a DividendYield value greater than 0 in Schwab?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 18
+        },
+        {
+          "question_id": 65,
+          "question": "How many ETFs report DistributionFrequency value in Vanguard?",
+          "correct": false,
+          "agent_answer": 85.0,
+          "ground_truth": 98
+        },
+        {
+          "question_id": 66,
+          "question": "How many ETFs report DistributionFrequency value in iShares?",
+          "correct": false,
+          "agent_answer": 150.0,
+          "ground_truth": 459
+        },
+        {
+          "question_id": 67,
+          "question": "How many ETFs report DistributionFrequency value in Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 31
+        },
+        {
+          "question_id": 68,
+          "question": "How many ETFs have DistributionFrequency value equal to \"Quarterly\" in Vanguard?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 60
+        },
+        {
+          "question_id": 69,
+          "question": "How many ETFs have DistributionFrequency value equal to \"Quarterly\" in iShares?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 143
+        },
+        {
+          "question_id": 70,
+          "question": "How many ETFs have DistributionFrequency value equal to \"Quarterly\" in Schwab?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 14
+        },
+        {
+          "question_id": 71,
+          "question": "How many ETFs report both a DividendYield value and a DistributionFrequency value in iShares?",
+          "correct": false,
+          "agent_answer": 135.0,
+          "ground_truth": 455
+        },
+        {
+          "question_id": 72,
+          "question": "How many ETFs report both a DividendYield value and a DistributionFrequency value in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 18
+        },
+        {
+          "question_id": 73,
+          "question": "How many ETFs have a PriceEarningsRatio value greater than 0 in Vanguard?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 74,
+          "question": "How many ETFs have a PriceEarningsRatio value greater than 0 in iShares?",
+          "correct": false,
+          "agent_answer": 110.0,
+          "ground_truth": 250
+        },
+        {
+          "question_id": 75,
+          "question": "How many ETFs have a PriceEarningsRatio value greater than 0 in Schwab?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 76,
+          "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in Vanguard?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 22
+        },
+        {
+          "question_id": 77,
+          "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in iShares?",
+          "correct": false,
+          "agent_answer": 45.0,
+          "ground_truth": 135
+        },
+        {
+          "question_id": 78,
+          "question": "How many ETFs have a PriceEarningsRatio value less than or equal to 20 in Schwab?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 9
+        },
+        {
+          "question_id": 79,
+          "question": "How many ETFs have a PriceBookRatio value greater than 1 in Vanguard?",
+          "correct": false,
+          "agent_answer": 45.0,
+          "ground_truth": 60
+        },
+        {
+          "question_id": 80,
+          "question": "How many ETFs have a PriceBookRatio value greater than 1 in iShares?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 257
+        },
+        {
+          "question_id": 81,
+          "question": "How many ETFs have a PriceBookRatio value greater than 1 in Schwab?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 82,
+          "question": "How many ETFs have ReturnOnEquity value greater than 0 in Vanguard?",
+          "correct": true,
+          "agent_answer": 55.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 83,
+          "question": "How many ETFs have ReturnOnEquity value greater than 0 in Schwab?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 19
+        },
+        {
+          "question_id": 84,
+          "question": "How many ETFs report a ReturnOnEquity value less than 0 in Vanguard?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 0
+        },
+        {
+          "question_id": 85,
+          "question": "How many ETFs report a ReturnOnEquity value less than 0 in Schwab?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 1
+        },
+        {
+          "question_id": 86,
+          "question": "What is the average OneYearNAVReturn across all ETFs in Vanguard? Return the answer as a decimal.",
+          "correct": false,
+          "agent_answer": 0.08,
+          "ground_truth": 0.09966279069767442
+        },
+        {
+          "question_id": 87,
+          "question": "What is the average OneYearNAVReturn across all ETFs in iShares? Return the answer as a decimal.",
+          "correct": false,
+          "agent_answer": 0.1,
+          "ground_truth": 0.12279033018867924
+        },
+        {
+          "question_id": 88,
+          "question": "What is the average OneYearNAVReturn across all ETFs in Schwab? Return the answer as a decimal.",
+          "correct": false,
+          "agent_answer": 0.09,
+          "ground_truth": 0.12897333333333333
+        },
+        {
+          "question_id": 89,
+          "question": "What is the median ThreeYearNAVReturn across ETFs in Vanguard? Return the answer as a decimal.",
+          "correct": false,
+          "agent_answer": 0.12,
+          "ground_truth": 0.1612
+        },
+        {
+          "question_id": 90,
+          "question": "What is the median ThreeYearNAVReturn across ETFs in iShares? Return the answer as a decimal.",
+          "correct": true,
+          "agent_answer": 0.15,
+          "ground_truth": 0.1525
+        },
+        {
+          "question_id": 91,
+          "question": "What is the median ThreeYearNAVReturn across ETFs in Schwab? Return the answer as a decimal.",
+          "correct": false,
+          "agent_answer": 0.11,
+          "ground_truth": 0.1655
+        },
+        {
+          "question_id": 92,
+          "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Vanguard? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.05,
+          "ground_truth": 0.07335612232092169
+        },
+        {
+          "question_id": 93,
+          "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in iShares? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.06,
+          "ground_truth": 0.06959043053079071
+        },
+        {
+          "question_id": 94,
+          "question": "What is the standard deviation of FiveYearNAVReturn across the ETF universe in Schwab? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.04,
+          "ground_truth": 0.07226662175282042
+        },
+        {
+          "question_id": 95,
+          "question": "How many ETFs have OneYearNAVReturn above the average in Vanguard?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 37
+        },
+        {
+          "question_id": 96,
+          "question": "How many ETFs have OneYearNAVReturn above the average in iShares?",
+          "correct": false,
+          "agent_answer": 35.0,
+          "ground_truth": 173
+        },
+        {
+          "question_id": 97,
+          "question": "How many ETFs have OneYearNAVReturn above the average in Schwab?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 9
+        },
+        {
+          "question_id": 98,
+          "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in Vanguard? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.6,
+          "ground_truth": 0.9753086419753086
+        },
+        {
+          "question_id": 99,
+          "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in iShares? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.55,
+          "ground_truth": 0.8217270194986073
+        },
+        {
+          "question_id": 100,
+          "question": "What proportion of ETFs have ThreeYearNAVReturn greater than OneYearNAVReturn in Schwab? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.5,
+          "ground_truth": 0.9259259259259259
+        },
+        {
+          "question_id": 101,
+          "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in Vanguard? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.45,
+          "ground_truth": 0.9302325581395349
+        },
+        {
+          "question_id": 102,
+          "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in iShares? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.5,
+          "ground_truth": 0.9221698113207547
+        },
+        {
+          "question_id": 103,
+          "question": "What proportion of ETFs have a OneYearNAVReturn value greater than 5% in Schwab? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.4,
+          "ground_truth": 0.9333333333333333
+        },
+        {
+          "question_id": 104,
+          "question": "What is the bottom quartile of FiveYearNAVReturn in Vanguard? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.04,
+          "ground_truth": 0.05752499999999999
+        },
+        {
+          "question_id": 105,
+          "question": "What is the bottom quartile of FiveYearNAVReturn in iShares? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.05,
+          "ground_truth": 0.032875
+        },
+        {
+          "question_id": 106,
+          "question": "What is the bottom quartile of FiveYearNAVReturn in Schwab? Return the answer as a decimal (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.03,
+          "ground_truth": 0.020025
+        },
+        {
+          "question_id": 107,
+          "question": "What is the average SharpeRatio among ETFs in the top decile of OneYearNAVReturn in iShares?",
+          "correct": false,
+          "agent_answer": 1.2,
+          "ground_truth": 0.6833333333333333
+        },
+        {
+          "question_id": 108,
+          "question": "What is the average SharpeRatio among ETFs in the top decile of OneYearNAVReturn in Schwab?",
+          "correct": false,
+          "agent_answer": 1.15,
+          "ground_truth": 1.38
+        },
+        {
+          "question_id": 109,
+          "question": "What is the difference between the average SharpeRatio of above-median and below-median OneYearNAVReturn ETFs in iShares?",
+          "correct": false,
+          "agent_answer": 0.3,
+          "ground_truth": 0.256
+        },
+        {
+          "question_id": 110,
+          "question": "What is the difference between the average SharpeRatio of above-median and below-median OneYearNAVReturn ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": 0.25,
+          "ground_truth": 0.3114285714285714
+        },
+        {
+          "question_id": 111,
+          "question": "How many ETFs have complete return data for 1Y, 3Y, and 5Y periods in Vanguard?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 80
+        },
+        {
+          "question_id": 112,
+          "question": "How many ETFs have complete return data for 1Y, 3Y, and 5Y periods in iShares?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 330
+        },
+        {
+          "question_id": 113,
+          "question": "How many ETFs have complete return data for 1Y, 3Y, and 5Y periods in Schwab?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 24
+        },
+        {
+          "question_id": 114,
+          "question": "What is the correlation between OneYearNAVReturn and SharpeRatio across ETFs in iShares?",
+          "correct": false,
+          "agent_answer": 0.55,
+          "ground_truth": 0.10222528729374751
+        },
+        {
+          "question_id": 115,
+          "question": "What is the correlation between OneYearNAVReturn and SharpeRatio across ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": 0.5,
+          "ground_truth": 0.6399975556951077
+        },
+        {
+          "question_id": 116,
+          "question": "What is the correlation between StandardDeviation and FiveYearNAVReturn in Vanguard?",
+          "correct": false,
+          "agent_answer": -0.4,
+          "ground_truth": 0.6755896202970025
+        },
+        {
+          "question_id": 117,
+          "question": "What is the correlation between StandardDeviation and FiveYearNAVReturn in iShares?",
+          "correct": false,
+          "agent_answer": -0.45,
+          "ground_truth": 0.4696988183962499
+        },
+        {
+          "question_id": 118,
+          "question": "What is the correlation between StandardDeviation and FiveYearNAVReturn in Schwab?",
+          "correct": false,
+          "agent_answer": -0.35,
+          "ground_truth": 0.8179654318065497
+        },
+        {
+          "question_id": 119,
+          "question": "What is the average Beta for ETFs in the top quartile of SharpeRatio in iShares?",
+          "correct": true,
+          "agent_answer": 0.8,
+          "ground_truth": 0.8425
+        },
+        {
+          "question_id": 120,
+          "question": "What is the average Beta for ETFs in the top quartile of SharpeRatio in Schwab?",
+          "correct": false,
+          "agent_answer": 0.75,
+          "ground_truth": 1.1833333333333333
+        },
+        {
+          "question_id": 121,
+          "question": "How many ETFs have Beta values closer to the universe median than to the universe mean in iShares?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 182
+        },
+        {
+          "question_id": 122,
+          "question": "How many ETFs have Beta values closer to the universe median than to the universe mean in Schwab?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 10
+        },
+        {
+          "question_id": 123,
+          "question": "What proportion of ETFs with a non-null SharpeRatio have a SharpeRatio above 0.5 in iShares?",
+          "correct": true,
+          "agent_answer": 0.6,
+          "ground_truth": 0.6333333333333333
+        },
+        {
+          "question_id": 124,
+          "question": "What proportion of ETFs with a non-null SharpeRatio have a SharpeRatio above 0.5 in Schwab?",
+          "correct": false,
+          "agent_answer": 0.55,
+          "ground_truth": 0.8260869565217391
+        },
+        {
+          "question_id": 125,
+          "question": "What is the maximum absolute difference between OneYearNAVReturn and ThreeYearNAVReturn ranks in Vanguard?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 23
+        },
+        {
+          "question_id": 126,
+          "question": "What is the maximum absolute difference between OneYearNAVReturn and ThreeYearNAVReturn ranks in iShares?",
+          "correct": false,
+          "agent_answer": 4.0,
+          "ground_truth": 303
+        },
+        {
+          "question_id": 127,
+          "question": "What is the maximum absolute difference between OneYearNAVReturn and ThreeYearNAVReturn ranks in Schwab?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 7
+        },
+        {
+          "question_id": 128,
+          "question": "How many ETFs change quartile classification when moving from OneYearNAVReturn to FiveYearNAVReturn in Vanguard?",
+          "correct": false,
+          "agent_answer": 12.0,
+          "ground_truth": 42
+        },
+        {
+          "question_id": 129,
+          "question": "How many ETFs change quartile classification when moving from OneYearNAVReturn to FiveYearNAVReturn in iShares?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 169
+        },
+        {
+          "question_id": 130,
+          "question": "How many ETFs change quartile classification when moving from OneYearNAVReturn to FiveYearNAVReturn in Schwab?",
+          "correct": true,
+          "agent_answer": 10.0,
+          "ground_truth": 10
+        },
+        {
+          "question_id": 131,
+          "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.12,
+          "ground_truth": 0.1429942857142857
+        },
+        {
+          "question_id": 132,
+          "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": true,
+          "agent_answer": 0.15,
+          "ground_truth": 0.1498770114942529
+        },
+        {
+          "question_id": 133,
+          "question": "What is the average StandardDeviation among ETFs whose OneYear and ThreeYear return ranks differ by more than the median rank difference in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.1,
+          "ground_truth": 0.1140857142857143
+        },
+        {
+          "question_id": 134,
+          "question": "How many ETFs have SharpeRatio values more than one standard deviation away from the mean in iShares?",
+          "correct": false,
+          "agent_answer": 20.0,
+          "ground_truth": 5
+        },
+        {
+          "question_id": 135,
+          "question": "How many ETFs have SharpeRatio values more than one standard deviation away from the mean in Schwab?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 8
+        },
+        {
+          "question_id": 136,
+          "question": "What proportion of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": true,
+          "agent_answer": 0.3,
+          "ground_truth": 0.3333333333333333
+        },
+        {
+          "question_id": 137,
+          "question": "What proportion of ETFs simultaneously rank in the top half for OneYearNAVReturn and SharpeRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.25,
+          "ground_truth": 0.34782608695652173
+        },
+        {
+          "question_id": 138,
+          "question": "How many ETFs have a non-null OneYearNAVReturn value in Vanguard?",
+          "correct": true,
+          "agent_answer": 80.0,
+          "ground_truth": 86
+        },
+        {
+          "question_id": 139,
+          "question": "How many ETFs have a non-null OneYearNAVReturn value in iShares?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 424
+        },
+        {
+          "question_id": 140,
+          "question": "How many ETFs have a non-null OneYearNAVReturn value in Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 30
+        },
+        {
+          "question_id": 141,
+          "question": "How many ETFs have a non-null ThreeYearNAVReturn value in Vanguard?",
+          "correct": true,
+          "agent_answer": 75.0,
+          "ground_truth": 81
+        },
+        {
+          "question_id": 142,
+          "question": "How many ETFs have a non-null ThreeYearNAVReturn value in iShares?",
+          "correct": false,
+          "agent_answer": 125.0,
+          "ground_truth": 359
+        },
+        {
+          "question_id": 143,
+          "question": "How many ETFs have a non-null ThreeYearNAVReturn value in Schwab?",
+          "correct": false,
+          "agent_answer": 65.0,
+          "ground_truth": 27
+        },
+        {
+          "question_id": 144,
+          "question": "How many ETFs have a non-null FiveYearNAVReturn value in Vanguard?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 80
+        },
+        {
+          "question_id": 145,
+          "question": "How many ETFs have a non-null FiveYearNAVReturn value in iShares?",
+          "correct": false,
+          "agent_answer": 120.0,
+          "ground_truth": 330
+        },
+        {
+          "question_id": 146,
+          "question": "How many ETFs have a non-null FiveYearNAVReturn value in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 24
+        },
+        {
+          "question_id": 147,
+          "question": "How many ETFs have non-null values for BOTH OneYearNAVReturn and ThreeYearNAVReturn in Vanguard?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 81
+        },
+        {
+          "question_id": 148,
+          "question": "How many ETFs have non-null values for BOTH OneYearNAVReturn and ThreeYearNAVReturn in iShares?",
+          "correct": false,
+          "agent_answer": 110.0,
+          "ground_truth": 359
+        },
+        {
+          "question_id": 149,
+          "question": "How many ETFs have non-null values for BOTH OneYearNAVReturn and ThreeYearNAVReturn in Schwab?",
+          "correct": false,
+          "agent_answer": 55.0,
+          "ground_truth": 27
+        },
+        {
+          "question_id": 150,
+          "question": "How many ETFs have non-null values for BOTH ThreeYearNAVReturn and FiveYearNAVReturn in Vanguard?",
+          "correct": false,
+          "agent_answer": 65.0,
+          "ground_truth": 80
+        },
+        {
+          "question_id": 151,
+          "question": "How many ETFs have non-null values for BOTH ThreeYearNAVReturn and FiveYearNAVReturn in iShares?",
+          "correct": false,
+          "agent_answer": 100.0,
+          "ground_truth": 330
+        },
+        {
+          "question_id": 152,
+          "question": "How many ETFs have non-null values for BOTH ThreeYearNAVReturn and FiveYearNAVReturn in Schwab?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 24
+        },
+        {
+          "question_id": 153,
+          "question": "How many ETFs have a non-null SharpeRatio value in iShares?",
+          "correct": false,
+          "agent_answer": 140.0,
+          "ground_truth": 30
+        },
+        {
+          "question_id": 154,
+          "question": "How many ETFs have a non-null SharpeRatio value in Schwab?",
+          "correct": false,
+          "agent_answer": 65.0,
+          "ground_truth": 23
+        },
+        {
+          "question_id": 155,
+          "question": "How many ETFs have a non-null StandardDeviation value in Vanguard?",
+          "correct": true,
+          "agent_answer": 75.0,
+          "ground_truth": 74
+        },
+        {
+          "question_id": 156,
+          "question": "How many ETFs have a non-null StandardDeviation value in iShares?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 359
+        },
+        {
+          "question_id": 157,
+          "question": "How many ETFs have a non-null StandardDeviation value in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 26
+        },
+        {
+          "question_id": 158,
+          "question": "How many ETFs have a non-null Beta value in iShares?",
+          "correct": false,
+          "agent_answer": 150.0,
+          "ground_truth": 360
+        },
+        {
+          "question_id": 159,
+          "question": "How many ETFs have a non-null Beta value in Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 15
+        },
+        {
+          "question_id": 160,
+          "question": "What is the average TotalNetAssets across all ETFs in Vanguard?",
+          "correct": false,
+          "agent_answer": 2.5,
+          "ground_truth": 37260275510.20408
+        },
+        {
+          "question_id": 161,
+          "question": "What is the average TotalNetAssets across all ETFs in iShares?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 6530909920.800434
+        },
+        {
+          "question_id": 162,
+          "question": "What is the average TotalNetAssets across all ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": 1.8,
+          "ground_truth": 14953494595.806452
+        },
+        {
+          "question_id": 163,
+          "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.25,
+          "ground_truth": 0.6556246468539318
+        },
+        {
+          "question_id": 164,
+          "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.3,
+          "ground_truth": 0.4406669994729369
+        },
+        {
+          "question_id": 165,
+          "question": "What is the standard deviation of PortfolioTurnover across the ETF universe in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.2,
+          "ground_truth": 0.16152039912448626
+        },
+        {
+          "question_id": 166,
+          "question": "How many ETFs have TotalNetAssets above the ETF universe average in Vanguard?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 21
+        },
+        {
+          "question_id": 167,
+          "question": "How many ETFs have TotalNetAssets above the ETF universe average in iShares?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 89
+        },
+        {
+          "question_id": 168,
+          "question": "How many ETFs have TotalNetAssets above the ETF universe average in Schwab?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 8
+        },
+        {
+          "question_id": 169,
+          "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.2,
+          "ground_truth": 0.42718446601941745
+        },
+        {
+          "question_id": 170,
+          "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.3,
+          "ground_truth": 0.14861995753715498
+        },
+        {
+          "question_id": 171,
+          "question": "What proportion of ETFs have TotalNetAssets above 10000000000 in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.15,
+          "ground_truth": 0.3939393939393939
+        },
+        {
+          "question_id": 172,
+          "question": "How many ETFs have PortfolioTurnover values closer to the universe median than to the universe mean in Vanguard?",
+          "correct": false,
+          "agent_answer": 35.0,
+          "ground_truth": 61
+        },
+        {
+          "question_id": 173,
+          "question": "How many ETFs have PortfolioTurnover values closer to the universe median than to the universe mean in iShares?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 274
+        },
+        {
+          "question_id": 174,
+          "question": "How many ETFs have PortfolioTurnover values closer to the universe median than to the universe mean in Schwab?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 18
+        },
+        {
+          "question_id": 175,
+          "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 1.25,
+          "ground_truth": 0.34285714285714286
+        },
+        {
+          "question_id": 176,
+          "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 1.5,
+          "ground_truth": 0.4198717948717949
+        },
+        {
+          "question_id": 177,
+          "question": "What is the ratio of ETFs with above-mean PortfolioTurnover to those with below-mean PortfolioTurnover in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 1.2,
+          "ground_truth": 0.631578947368421
+        },
+        {
+          "question_id": 178,
+          "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": true,
+          "agent_answer": 0.4,
+          "ground_truth": 0.4023777777777778
+        },
+        {
+          "question_id": 179,
+          "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.45,
+          "ground_truth": 0.2332958904109589
+        },
+        {
+          "question_id": 180,
+          "question": "What is the average PortfolioTurnover among ETFs whose asset-size and volume ranks differ by more than the median rank difference in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.35,
+          "ground_truth": 0.25179285714285715
+        },
+        {
+          "question_id": 181,
+          "question": "How many ETFs report a non-null TotalNetAssets value in Vanguard?",
+          "correct": false,
+          "agent_answer": 85.0,
+          "ground_truth": 98
+        },
+        {
+          "question_id": 182,
+          "question": "How many ETFs report a non-null TotalNetAssets value in iShares?",
+          "correct": false,
+          "agent_answer": 150.0,
+          "ground_truth": 461
+        },
+        {
+          "question_id": 183,
+          "question": "How many ETFs report a non-null TotalNetAssets value in Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 31
+        },
+        {
+          "question_id": 184,
+          "question": "How many ETFs have TotalNetAssets less than 50,000,000 (50M) in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 3
+        },
+        {
+          "question_id": 185,
+          "question": "How many ETFs have TotalNetAssets less than 50,000,000 (50M) in iShares?",
+          "correct": false,
+          "agent_answer": 5.0,
+          "ground_truth": 75
+        },
+        {
+          "question_id": 186,
+          "question": "How many ETFs have TotalNetAssets less than 50,000,000 (50M) in Schwab?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 1
+        },
+        {
+          "question_id": 187,
+          "question": "How many ETFs have TotalNetAssets greater than or equal to 10,000,000,000 (10B) in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 44
+        },
+        {
+          "question_id": 188,
+          "question": "How many ETFs have TotalNetAssets greater than or equal to 10,000,000,000 (10B) in iShares?",
+          "correct": false,
+          "agent_answer": 20.0,
+          "ground_truth": 70
+        },
+        {
+          "question_id": 189,
+          "question": "How many ETFs have TotalNetAssets greater than or equal to 10,000,000,000 (10B) in Schwab?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 13
+        },
+        {
+          "question_id": 190,
+          "question": "How many ETFs report a non-null PortfolioTurnover value in Vanguard?",
+          "correct": false,
+          "agent_answer": 80.0,
+          "ground_truth": 94
+        },
+        {
+          "question_id": 191,
+          "question": "How many ETFs report a non-null PortfolioTurnover value in iShares?",
+          "correct": false,
+          "agent_answer": 140.0,
+          "ground_truth": 443
+        },
+        {
+          "question_id": 192,
+          "question": "How many ETFs report a non-null PortfolioTurnover value in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 31
+        },
+        {
+          "question_id": 193,
+          "question": "How many ETFs have PortfolioTurnover less than 0.2 (20%) in Vanguard?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 6
+        },
+        {
+          "question_id": 194,
+          "question": "How many ETFs have PortfolioTurnover less than 0.2 (20%) in iShares?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 23
+        },
+        {
+          "question_id": 195,
+          "question": "How many ETFs have PortfolioTurnover less than 0.2 (20%) in Schwab?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 0
+        },
+        {
+          "question_id": 196,
+          "question": "What is the average TotalExpenseRatio across all ETFs in Vanguard? In percentage",
+          "correct": false,
+          "agent_answer": 0.15,
+          "ground_truth": 0.08333333333333333
+        },
+        {
+          "question_id": 197,
+          "question": "What is the average TotalExpenseRatio across all ETFs in iShares? In percentage",
+          "correct": false,
+          "agent_answer": 0.2,
+          "ground_truth": 0.30210191082802546
+        },
+        {
+          "question_id": 198,
+          "question": "What is the average TotalExpenseRatio across all ETFs in Schwab? In percentage",
+          "correct": false,
+          "agent_answer": 0.18,
+          "ground_truth": 0.12
+        },
+        {
+          "question_id": 199,
+          "question": "What is the median TotalExpenseRatio across ETFs in Vanguard? In percentage",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.07
+        },
+        {
+          "question_id": 200,
+          "question": "What is the median TotalExpenseRatio across ETFs in iShares? In percentage",
+          "correct": false,
+          "agent_answer": 0.22,
+          "ground_truth": 0.26
+        },
+        {
+          "question_id": 201,
+          "question": "What is the median TotalExpenseRatio across ETFs in Schwab? In percentage",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.04
+        },
+        {
+          "question_id": 202,
+          "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Vanguard? In percentage",
+          "correct": true,
+          "agent_answer": 0.05,
+          "ground_truth": 0.054597235148023573
+        },
+        {
+          "question_id": 203,
+          "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in iShares? In percentage",
+          "correct": false,
+          "agent_answer": 0.06,
+          "ground_truth": 0.19243688718520796
+        },
+        {
+          "question_id": 204,
+          "question": "What is the standard deviation of TotalExpenseRatio across the ETF universe in Schwab? In percentage",
+          "correct": false,
+          "agent_answer": 0.04,
+          "ground_truth": 0.1395752485220786
+        },
+        {
+          "question_id": 205,
+          "question": "How many ETFs have TotalExpenseRatio above the ETF universe average in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 42
+        },
+        {
+          "question_id": 206,
+          "question": "How many ETFs have TotalExpenseRatio above the ETF universe average in iShares?",
+          "correct": false,
+          "agent_answer": 30.0,
+          "ground_truth": 223
+        },
+        {
+          "question_id": 207,
+          "question": "How many ETFs have TotalExpenseRatio above the ETF universe average in Schwab?",
+          "correct": false,
+          "agent_answer": 20.0,
+          "ground_truth": 10
+        },
+        {
+          "question_id": 208,
+          "question": "How many ETFs have TotalExpenseRatio below 0.05% in Vanguard?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 24
+        },
+        {
+          "question_id": 209,
+          "question": "How many ETFs have TotalExpenseRatio below 0.05% in iShares?",
+          "correct": false,
+          "agent_answer": 5.0,
+          "ground_truth": 17
+        },
+        {
+          "question_id": 210,
+          "question": "How many ETFs have TotalExpenseRatio below 0.05% in Schwab?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 18
+        },
+        {
+          "question_id": 211,
+          "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.4,
+          "ground_truth": 0.17647058823529413
+        },
+        {
+          "question_id": 212,
+          "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.45,
+          "ground_truth": 0.7855626326963907
+        },
+        {
+          "question_id": 213,
+          "question": "What proportion of ETFs have TotalExpenseRatio greater than 0.1% in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.30303030303030304
+        },
+        {
+          "question_id": 214,
+          "question": "What is the bottom quartile of TotalExpenseRatio values in Vanguard? In percentage.",
+          "correct": false,
+          "agent_answer": 0.1,
+          "ground_truth": 0.05
+        },
+        {
+          "question_id": 215,
+          "question": "What is the bottom quartile of TotalExpenseRatio values in iShares? In percentage.",
+          "correct": true,
+          "agent_answer": 0.15,
+          "ground_truth": 0.14
+        },
+        {
+          "question_id": 216,
+          "question": "What is the bottom quartile of TotalExpenseRatio values in Schwab? In percentage.",
+          "correct": false,
+          "agent_answer": 0.12,
+          "ground_truth": 0.03
+        },
+        {
+          "question_id": 217,
+          "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.5,
+          "ground_truth": 0.6424583333333334
+        },
+        {
+          "question_id": 218,
+          "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.55,
+          "ground_truth": 0.297766
+        },
+        {
+          "question_id": 219,
+          "question": "What is the average PortfolioTurnover among ETFs in the top decile of TotalExpenseRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.45,
+          "ground_truth": 0.3306
+        },
+        {
+          "question_id": 220,
+          "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.2,
+          "ground_truth": 0.1809702743902439
+        },
+        {
+          "question_id": 221,
+          "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.25,
+          "ground_truth": 0.06034807084933846
+        },
+        {
+          "question_id": 222,
+          "question": "What is the difference between the average PortfolioTurnover of above-median and below-median TotalExpenseRatio ETFs in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.15,
+          "ground_truth": 0.014983516483516474
+        },
+        {
+          "question_id": 223,
+          "question": "How many ETFs report both TotalExpenseRatio and PortfolioTurnover in Vanguard?",
+          "correct": false,
+          "agent_answer": 75.0,
+          "ground_truth": 94
+        },
+        {
+          "question_id": 224,
+          "question": "How many ETFs report both TotalExpenseRatio and PortfolioTurnover in iShares?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 443
+        },
+        {
+          "question_id": 225,
+          "question": "How many ETFs report both TotalExpenseRatio and PortfolioTurnover in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 31
+        },
+        {
+          "question_id": 226,
+          "question": "What is the correlation between TotalExpenseRatio and PortfolioTurnover across ETFs in Vanguard?",
+          "correct": false,
+          "agent_answer": -0.3,
+          "ground_truth": 0.160538477969061
+        },
+        {
+          "question_id": 227,
+          "question": "What is the correlation between TotalExpenseRatio and PortfolioTurnover across ETFs in iShares?",
+          "correct": false,
+          "agent_answer": -0.35,
+          "ground_truth": 0.04228310785936768
+        },
+        {
+          "question_id": 228,
+          "question": "What is the correlation between TotalExpenseRatio and PortfolioTurnover across ETFs in Schwab?",
+          "correct": false,
+          "agent_answer": -0.25,
+          "ground_truth": 0.039954896096539204
+        },
+        {
+          "question_id": 229,
+          "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.09,
+          "ground_truth": 0.07902727272727272
+        },
+        {
+          "question_id": 230,
+          "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": 0.1,
+          "ground_truth": 0.07512710280373831
+        },
+        {
+          "question_id": 231,
+          "question": "What is the average OneYearNAVReturn for ETFs in the lowest quartile of TotalExpenseRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.0756
+        },
+        {
+          "question_id": 232,
+          "question": "How many ETFs have TotalExpenseRatio values closer to the universe median than to the universe mean in Vanguard?",
+          "correct": false,
+          "agent_answer": 40.0,
+          "ground_truth": 57
+        },
+        {
+          "question_id": 233,
+          "question": "How many ETFs have TotalExpenseRatio values closer to the universe median than to the universe mean in iShares?",
+          "correct": false,
+          "agent_answer": 50.0,
+          "ground_truth": 238
+        },
+        {
+          "question_id": 234,
+          "question": "How many ETFs have TotalExpenseRatio values closer to the universe median than to the universe mean in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 235,
+          "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in Vanguard?",
+          "correct": false,
+          "agent_answer": 1.1,
+          "ground_truth": 0.7
+        },
+        {
+          "question_id": 236,
+          "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in iShares?",
+          "correct": false,
+          "agent_answer": 1.2,
+          "ground_truth": 0.8991935483870968
+        },
+        {
+          "question_id": 237,
+          "question": "What is the ratio of ETFs with above-mean TotalExpenseRatio to those with below-mean TotalExpenseRatio in Schwab?",
+          "correct": false,
+          "agent_answer": 1.15,
+          "ground_truth": 0.43478260869565216
+        },
+        {
+          "question_id": 238,
+          "question": "What is the maximum absolute difference between TotalExpenseRatio and PortfolioTurnover ranks in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 81
+        },
+        {
+          "question_id": 239,
+          "question": "What is the maximum absolute difference between TotalExpenseRatio and PortfolioTurnover ranks in iShares?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 91
+        },
+        {
+          "question_id": 240,
+          "question": "What is the maximum absolute difference between TotalExpenseRatio and PortfolioTurnover ranks in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 29
+        },
+        {
+          "question_id": 241,
+          "question": "How many ETFs change quartile classification when moving from TotalExpenseRatio to PortfolioTurnover in Vanguard?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 68
+        },
+        {
+          "question_id": 242,
+          "question": "How many ETFs change quartile classification when moving from TotalExpenseRatio to PortfolioTurnover in iShares?",
+          "correct": false,
+          "agent_answer": 20.0,
+          "ground_truth": 331
+        },
+        {
+          "question_id": 243,
+          "question": "How many ETFs change quartile classification when moving from TotalExpenseRatio to PortfolioTurnover in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 22
+        },
+        {
+          "question_id": 244,
+          "question": "What is the average SharpeRatio among ETFs whose cost and turnover ranks differ by more than the median rank difference in iShares?",
+          "correct": false,
+          "agent_answer": 1.1,
+          "ground_truth": 0.7875
+        },
+        {
+          "question_id": 245,
+          "question": "What is the average SharpeRatio among ETFs whose cost and turnover ranks differ by more than the median rank difference in Schwab?",
+          "correct": true,
+          "agent_answer": 1.05,
+          "ground_truth": 1.055
+        },
+        {
+          "question_id": 246,
+          "question": "How many ETFs have TotalExpenseRatio values more than one standard deviation away from the mean in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 9
+        },
+        {
+          "question_id": 247,
+          "question": "How many ETFs have TotalExpenseRatio values more than one standard deviation away from the mean in iShares?",
+          "correct": false,
+          "agent_answer": 25.0,
+          "ground_truth": 197
+        },
+        {
+          "question_id": 248,
+          "question": "How many ETFs have TotalExpenseRatio values more than one standard deviation away from the mean in Schwab?",
+          "correct": false,
+          "agent_answer": 15.0,
+          "ground_truth": 4
+        },
+        {
+          "question_id": 249,
+          "question": "What proportion of ETFs simultaneously rank in the top half for TotalExpenseRatio and SharpeRatio in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.2
+        },
+        {
+          "question_id": 250,
+          "question": "What proportion of ETFs simultaneously rank in the top half for TotalExpenseRatio and SharpeRatio in Schwab? Return the answer as a decimal value (not percentage points).",
+          "correct": true,
+          "agent_answer": 0.2,
+          "ground_truth": 0.21739130434782608
+        },
+        {
+          "question_id": 251,
+          "question": "How many ETFs report a non-null TotalExpenseRatio value in Vanguard?",
+          "correct": false,
+          "agent_answer": 85.0,
+          "ground_truth": 102
+        },
+        {
+          "question_id": 252,
+          "question": "How many ETFs report a non-null TotalExpenseRatio value in iShares?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 471
+        },
+        {
+          "question_id": 253,
+          "question": "How many ETFs report a non-null TotalExpenseRatio value in Schwab?",
+          "correct": false,
+          "agent_answer": 70.0,
+          "ground_truth": 33
+        },
+        {
+          "question_id": 254,
+          "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Vanguard?",
+          "correct": false,
+          "agent_answer": 75.0,
+          "ground_truth": 94
+        },
+        {
+          "question_id": 255,
+          "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in iShares?",
+          "correct": false,
+          "agent_answer": 130.0,
+          "ground_truth": 443
+        },
+        {
+          "question_id": 256,
+          "question": "How many ETFs report non-null values for BOTH PortfolioTurnover and TotalExpenseRatio in Schwab?",
+          "correct": false,
+          "agent_answer": 60.0,
+          "ground_truth": 31
+        },
+        {
+          "question_id": 257,
+          "question": "How many ETFs report PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 55
+        },
+        {
+          "question_id": 258,
+          "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in iShares?",
+          "correct": false,
+          "agent_answer": 20.0,
+          "ground_truth": 386
+        },
+        {
+          "question_id": 259,
+          "question": "How many ETFs have PortfolioTurnover greater than 0.8 AND TotalExpenseRatio greater than 0.06 in Schwab?",
+          "correct": false,
+          "agent_answer": 10.0,
+          "ground_truth": 12
+        },
+        {
+          "question_id": 260,
+          "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in Vanguard?",
+          "correct": false,
+          "agent_answer": 5.0,
+          "ground_truth": 20
+        },
+        {
+          "question_id": 261,
+          "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in iShares?",
+          "correct": false,
+          "agent_answer": 3.0,
+          "ground_truth": 17
+        },
+        {
+          "question_id": 262,
+          "question": "How many ETFs have OneYearNAVReturn greater than 0 AND TotalExpenseRatio less than 0.05 in Schwab?",
+          "correct": false,
+          "agent_answer": 2.0,
+          "ground_truth": 16
+        },
+        {
+          "question_id": 263,
+          "question": "What is the SharpeRatio for ETF FBCG in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 1.15
+        },
+        {
+          "question_id": 264,
+          "question": "What is the SharpeRatio for ETF FNDA in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.5
+        },
+        {
+          "question_id": 265,
+          "question": "What is the Beta value for ETF FBOT in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 1.49
+        },
+        {
+          "question_id": 266,
+          "question": "What is the Beta value for ETF AAXJ in iShares?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.67
+        },
+        {
+          "question_id": 267,
+          "question": "What is the Beta value for ETF FNDA in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.96
+        },
+        {
+          "question_id": 268,
+          "question": "What is the Beta value for ETF FNDA in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.96
+        },
+        {
+          "question_id": 269,
+          "question": "What is the TotalNetAssets for ETF FLTB in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 270460000
+        },
+        {
+          "question_id": 270,
+          "question": "What is the TotalNetAssets for ETF AOR in iShares?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 2815600000
+        },
+        {
+          "question_id": 271,
+          "question": "What is the TotalNetAssets for ETF SCHH in Schwab?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 8391826721
+        },
+        {
+          "question_id": 272,
+          "question": "What is the TotalNetAssets for ETF EDV in Vanguard?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 3866000000
+        },
+        {
+          "question_id": 273,
+          "question": "What is the AverageDailyVolume for ETF FPRO in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 2790
+        },
+        {
+          "question_id": 274,
+          "question": "What is the AverageDailyVolume for ETF FIGB in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 41429
+        },
+        {
+          "question_id": 275,
+          "question": "What is the AverageDailyVolume for ETF FTBD in Fidelity?",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 7062
+        },
+        {
+          "question_id": 276,
+          "question": "What is the StandardDeviation for ETF VIS in Vanguard? Return the answer as a decimal value (not percentage).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1786
+        },
+        {
+          "question_id": 277,
+          "question": "What is the StandardDeviation for ETF SCHV in Schwab? Return the answer as a decimal value (not percentage).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1421
+        },
+        {
+          "question_id": 278,
+          "question": "What is the StandardDeviation for ETF CMDY in iShares? Return the answer as a decimal value (not percentage).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.0948
+        },
+        {
+          "question_id": 279,
+          "question": "What is the StandardDeviation for ETF FMAG in Fidelity? Return the answer as a decimal value (not percentage).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1485
+        },
+        {
+          "question_id": 280,
+          "question": "What is the Beta for ETF IYG in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 1.13
+        },
+        {
+          "question_id": 281,
+          "question": "What is the PortfolioTurnover for ETF JXI in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.07
+        },
+        {
+          "question_id": 282,
+          "question": "What is the FiveYearNAVReturn for ETF EWM in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.0355
+        },
+        {
+          "question_id": 283,
+          "question": "What is the TotalExpenseRatio for ETF AAXJ in iShares? In percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.72
+        },
+        {
+          "question_id": 284,
+          "question": "What is the OneYearNAVReturn for ETF INTF in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1813
+        },
+        {
+          "question_id": 285,
+          "question": "What is the StandardDeviation for ETF FMAG in Fidelity? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1485
+        },
+        {
+          "question_id": 286,
+          "question": "What is the StandardDeviation for ETF USXF in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1517
+        },
+        {
+          "question_id": 287,
+          "question": "What is the FiveYearNAVReturn for ETF EWU in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.148
+        },
+        {
+          "question_id": 288,
+          "question": "What is the FiveYearNAVReturn for ETF VOOG in Vanguard? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1676
+        },
+        {
+          "question_id": 289,
+          "question": "What is the PortfolioTurnover for ETF BELT in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.39
+        },
+        {
+          "question_id": 290,
+          "question": "What is the OneYearNAVReturn for ETF EPU in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.4702
+        },
+        {
+          "question_id": 291,
+          "question": "What is the TotalExpenseRatio for ETF SCCR in Schwab? In percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.2
+        },
+        {
+          "question_id": 292,
+          "question": "What is the TotalExpenseRatio for ETF IXJ in iShares? In percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.4
+        },
+        {
+          "question_id": 293,
+          "question": "What is the StandardDeviation for ETF IGOV in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.11
+        },
+        {
+          "question_id": 294,
+          "question": "What is the TotalExpenseRatio for ETF FFLV in Fidelity? Return the answer in percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.38
+        },
+        {
+          "question_id": 295,
+          "question": "What is the FiveYearNAVReturn for ETF IWV in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.1555
+        },
+        {
+          "question_id": 296,
+          "question": "What is the TotalExpenseRatio for ETF FDFF in Fidelity? Return the answer in percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.51
+        },
+        {
+          "question_id": 297,
+          "question": "What is the TotalExpenseRatio for ETF VEGI in iShares? Return the answer in percentage.",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.39
+        },
+        {
+          "question_id": 298,
+          "question": "What is the FiveYearNAVReturn for ETF IBTH in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": -0.0059
+        },
+        {
+          "question_id": 299,
+          "question": "What is the OneYearNAVReturn for ETF GSG in iShares? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": 0.0915
+        },
+        {
+          "question_id": 300,
+          "question": "What is the OneYearNAVReturn for ETF FPRO in Fidelity? Return the answer as a decimal value (not percentage points).",
+          "correct": false,
+          "agent_answer": -1.0,
+          "ground_truth": -0.0428
+        }
+      ]
+    }
+  ]
+}
