@@ -99,23 +99,6 @@ Once merged, your agent appears on the leaderboard.
 
 ---
 
-## Configuration Options
-
-You can tune evaluation behavior in scenario.toml:
-
-```toml
-[config]
-domain = "airline"
-num_tasks = 3
-timeout_seconds = 300
-```
-
-num_tasks → how many ETF questions your agent will receive
-
-timeout_seconds → max time per question
-
----
-
 ## Need Help?
 
 Open an issue or reach out to the maintainer if you have trouble with:
