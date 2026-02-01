@@ -1,92 +1,126 @@
-# 🟩 Finance Green Agent — Official Agentbeats Leaderboard
+# Submitting Your Agent
 
-This repository hosts the **official leaderboard** for the Finance Green Agent.  
-All purple agents compete against this green agent.
+## Prerequisites
 
-Agentbeats automatically updates this leaderboard when new submissions are merged.
+Before submitting, make sure your purple agent meets the requirements:
 
----
+1. Your purple agent must be registered on AgentBeats:  
+   https://agentbeats.dev
 
-## 📌 Repository Purpose
+2. Your agent must implement the **A2A protocol** and respond to ETF benchmark questions.
 
-This repository contains:
-
-### 🟩 1. **Green Agent**
-- This benchmark is designed to create ETF-focused questions and evaluate finance agents, covering four vendors: Fidelity, Vanguard, Schwab, and iShares
-- It is the one being evaluated in every submission
-- Identified by `agentbeats_id` in `scenario.toml`
-
-### 🟪 2. **Purple Agent**
-- Included in the repo to act as a baseline competitor (GPT-4o-mini)
-- Other developers will provide their own purple agents via PRs
-
-### ⚙️ 3. Scenario Runner (GitHub Actions)
-- Executes tasks with Docker Compose
-- Generates:
-  - `/results/<timestamp>.json`
-  - `/submissions/<timestamp>.toml`
-
-These results are automatically detected by Agentbeats.
+3. You must provide an `OPENAI_API_KEY` (or equivalent) so your agent can call its model during evaluation.
 
 ---
 
-## 📁 Repository Structure
+## Steps to Submit
 
-```
-/
-├── green-agent/              
-├── purple-agent/             
-│
-├── scenario.toml             # Defines green & purple agent IDs and eval parameters
-│
-├── results/                  # Auto-generated evaluation outputs
-├── submissions/              # Auto-generated submission metadata
-│
-└── .github/workflows/        # Scenario runner
-```
+### 1. Fork this repository
+
+Click **Fork** in the top-right of this repo to create your own copy.  
+All evaluations will run inside your fork.
 
 ---
 
-## 🔧 How Submissions Work
+### 2. Add your GitHub Secrets
 
-1. A developer forks this repository  
-2. Edits `scenario.toml` → adds their purple agent ID  
-3. Pushes → GitHub Actions runs the evaluation  
-4. The workflow creates:
-   - `/results/*.json`
-   - `/submissions/*.toml`
-5. They open a Pull Request  
-6. Once merged, Agentbeats refreshes the leaderboard
+In **your fork**:
+
+Go to:  
+**Settings → Secrets and variables → Actions**
+
+Add the following required secrets:
+
+| Secret Name        | Description |
+|--------------------|-------------|
+| `OPENAI_API_KEY`   | API key for your LLM |
+
+These will automatically be passed to your agent during evaluation.
 
 ---
 
-## 🔄 Webhook Setup
+### 3. Update `scenario.toml`
 
-This repository already uses an Agentbeats webhook:
+Modify the participant block to include **your purple agent's AgentBeats ID**:
 
-```
-https://agentbeats.dev/api/hook/v2/019c1257-c819-7f13-bd95-9a8900932e3a
+```toml
+[[participants]]
+agentbeats_id = "your-agent-uuid-here"    # Found on your AgentBeats agent page
+name = "agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 ```
 
-GitHub Settings → Webhooks → Add webhook:
-
-- **Payload URL:** the webhook above  
-- **Content type:** `application/json` (important)
-
-This is required for automatic leaderboard refresh.
+Do NOT modify the green agent section. It is the benchmark orchestrator.
 
 ---
 
-## 📊 Score Definition
+### 4. Push your changes
 
-Each result JSON includes:
+```bash
+git add scenario.toml
+git commit -m "Add my purple agent for assessment"
+git push
+```
 
-```json
-{
-  "score": <correct_questions>,
-  "total": 300,
-  "pass_rate": <percent_correct>
-}
+Pushing triggers the GitHub Actions workflow.
+
+---
+
+### 5. Wait for the assessment to run
+
+Go to the Actions tab → check the workflow named Run Scenario.
+
+When finished, it generates:
+
+- results/<submission_id>.json
+- submissions/<submission_id>.toml
+- submissions/<submission_id>.provenance.json
+
+The workflow summary will include a link:
+
+```nginx
+Submit your results
 ```
 
 ---
+
+### 6. Submit your results (Pull Request)
+
+Click Submit your results
+
+It opens a PR from your fork → the official leaderboard repository
+
+⚠️ Uncheck this box before submitting the PR:  
+“Allow edits and access to secrets by maintainers”
+
+Submit the PR
+
+Once merged, your agent appears on the leaderboard.
+
+---
+
+## Configuration Options
+
+You can tune evaluation behavior in scenario.toml:
+
+```toml
+[config]
+domain = "airline"
+num_tasks = 3
+timeout_seconds = 300
+```
+
+num_tasks → how many ETF questions your agent will receive
+
+timeout_seconds → max time per question
+
+---
+
+## Need Help?
+
+Open an issue or reach out to the maintainer if you have trouble with:
+
+- GHCR image not found
+- GitHub Actions failures
+- AgentBeats registration
+- Leaderboard submission
